@@ -28,7 +28,7 @@ services:
     restart: unless-stopped
 
   sensor:
-    build: ./sensor
+    build: ./sensor_c
     container_name: sensor
     depends_on:
       - network
