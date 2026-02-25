@@ -10,7 +10,7 @@ print("Network listening on UDP 9000")
 
 while True:
     data, addr = sock.recvfrom(2048)
-    print("Network received:", data.decode())
+    print(f"Network received {len(data)} bytes")
 
     forward_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     forward_sock.sendto(data, FOG_ADDR)
