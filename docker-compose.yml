@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+
+  cloud:
+    build: ./cloud
+    container_name: cloud
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  fog:
+    build: ./fog
+    container_name: fog
+    depends_on:
+      - cloud
+    ports:
+      - "9100:9100/udp"
+    restart: unless-stopped
+
+  network:
+    build: ./network
+    container_name: network
+    depends_on:
+      - fog
+    ports:
+      - "9000:9000/udp"
+    restart: unless-stopped
+
+  sensor:
+    build: ./sensor
+    container_name: sensor
+    depends_on:
+      - network
+    restart: unless-stopped
