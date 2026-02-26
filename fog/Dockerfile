@@ -6,4 +6,4 @@ COPY sensor_public.key .
 
 RUN pip install requests pynacl
 
-CMD ["python", "fog.py"]
+CMD ["python", "-u", "fog.py"]

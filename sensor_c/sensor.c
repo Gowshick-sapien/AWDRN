@@ -5,6 +5,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <sodium.h>
+#include <stdint.h>
 
 #define SERVER_PORT 9000
 #define SIGNATURE_SIZE crypto_sign_BYTES
@@ -17,7 +18,6 @@ int main() {
         return 1;
     }
 
-    // Load private key
     unsigned char sk[PRIVATE_KEY_SIZE];
     FILE *keyfile = fopen("keys/sensor_private.key", "rb");
     if (!keyfile) {
@@ -47,35 +47,47 @@ int main() {
            server->h_addr,
            server->h_length);
 
-    int counter = 0;
-    char payload[256];
+    uint64_t counter = 0;
 
     while (1) {
 
-        snprintf(payload, sizeof(payload), "hello %d", counter);
+        char payload_text[256];
+        snprintf(payload_text, sizeof(payload_text), "hello %lu", counter);
+
+        uint16_t payload_len = strlen(payload_text);
+
+        // Build structured buffer
+        unsigned char structured[512];
+
+        uint64_t net_counter = htobe64(counter);
+        uint16_t net_len = htons(payload_len);
+
+        memcpy(structured, &net_counter, 8);
+        memcpy(structured + 8, &net_len, 2);
+        memcpy(structured + 10, payload_text, payload_len);
 
         unsigned char signature[SIGNATURE_SIZE];
 
         crypto_sign_detached(signature,
                              NULL,
-                             (unsigned char*)payload,
-                             strlen(payload),
+                             structured,
+                             10 + payload_len,
                              sk);
 
-        unsigned char packet[512];
-        size_t payload_len = strlen(payload);
-
-        memcpy(packet, payload, payload_len);
-        memcpy(packet + payload_len, signature, SIGNATURE_SIZE);
+        unsigned char packet[1024];
+        memcpy(packet, structured, 10 + payload_len);
+        memcpy(packet + 10 + payload_len,
+               signature,
+               SIGNATURE_SIZE);
 
         sendto(sock,
                packet,
-               payload_len + SIGNATURE_SIZE,
+               10 + payload_len + SIGNATURE_SIZE,
                0,
                (struct sockaddr*)&server_addr,
                sizeof(server_addr));
 
-        printf("Signed packet sent: %s\n", payload);
+        printf("Sent counter %lu\n", counter);
 
         counter++;
         sleep(3);

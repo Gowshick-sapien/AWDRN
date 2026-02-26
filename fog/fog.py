@@ -19,22 +19,38 @@ sock.bind(("0.0.0.0", UDP_PORT))
 print("Fog listening on UDP 9100")
 
 
+import struct
+
+last_counter = -1
+
 while True:
     data, addr = sock.recvfrom(2048)
 
-    payload = data[:-SIGNATURE_SIZE]
     signature = data[-SIGNATURE_SIZE:]
+    structured = data[:-SIGNATURE_SIZE]
 
     try:
-        verify_key.verify(payload, signature)
-        print("Signature VALID")
-        print("Fog received valid payload:", payload.decode())
+        verify_key.verify(structured, signature)
     except BadSignatureError:
-        print("Signature INVALID - packet dropped")
+        print("Signature INVALID - dropped")
         continue
 
-    # Use VERIFIED payload only
-    json_payload = {"message": payload.decode()}
+    # Parse structured data
+    counter = struct.unpack(">Q", structured[0:8])[0]
+    payload_len = struct.unpack(">H", structured[8:10])[0]
+    payload = structured[10:10+payload_len]
+
+    # Replay protection
+    if counter <= last_counter:
+        print(f"Replay detected (counter {counter}) - dropped")
+        continue
+
+    last_counter = counter
+
+    print(f"VALID packet counter={counter}")
+    print("Payload:", payload.decode())
+
+    json_payload = {"message": payload.decode(), "counter": counter}
 
     try:
         requests.post("http://cloud:8000/ingest", json=json_payload)
