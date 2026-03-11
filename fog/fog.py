@@ -194,6 +194,19 @@ while True:
         print(f"Merkle batch committed {batch_start_counter}-{batch_end}")
         print(f"Merkle root: {root}")
 
+        # Send root to cloud
+        try:
+            requests.post(
+                "http://cloud:8000/anchor",
+                json={
+                    "batch_start": batch_start_counter,
+                    "batch_end": batch_end,
+                    "merkle_root": root
+                }
+            )
+        except Exception as e:
+            print("Merkle anchor failed:", e)
+
         batch_buffer = []
         batch_start_counter = None
 
