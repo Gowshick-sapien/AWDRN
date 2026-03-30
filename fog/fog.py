@@ -168,13 +168,10 @@ while True:
     print("Stored in SQLite")
 
     # ---------------------------
-    # Forward to cloud (with 20% chance to tamper for testing!)
+    # Forward to cloud
     # ---------------------------
-    import random
-    if random.random() < 0.2:
-        json_payload = {"message": "TAMPERED_MALICIOUS_DATA!!!", "counter": counter}
-    else:
-        json_payload = {"message": message, "counter": counter}
+
+    json_payload = {"message": message, "counter": counter}
 
     try:
         requests.post("http://cloud:8000/ingest", json=json_payload)

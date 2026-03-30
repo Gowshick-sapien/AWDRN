@@ -73,6 +73,15 @@ def build_merkle_root(hashes):
         nodes = new_level
     return nodes[0]
 
+@app.post("/tamper")
+async def tamper():
+    if ingested_telemetry:
+        latest_counter = max(ingested_telemetry.keys())
+        ingested_telemetry[latest_counter] += "_TAMPERED_MANUALLY"
+        print(f"User manually poisoned the Cloud's data for counter {latest_counter}!")
+        return {"status": f"tampered counter {latest_counter}"}
+    return {"status": "no data to tamper yet"}
+
 @app.post("/ingest")
 async def ingest(data: dict):
     counter = data.get("counter")
