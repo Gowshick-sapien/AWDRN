@@ -1,4 +1,5 @@
 import hashlib
+import base64
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -9,10 +10,8 @@ app = FastAPI()
 
 device_registry = {}
 
-
 @app.post("/register")
 async def register(data: dict):
-
     device_id = data["device_id"]
     public_key = data["public_key"]
 
@@ -22,99 +21,104 @@ async def register(data: dict):
     }
 
     print(f"Device registered: {device_id}")
-
     return {"status": "registered"}
-
 
 @app.get("/device/{device_id}")
 async def get_device(device_id: str):
-
     device = device_registry.get(device_id)
-
     if not device:
         return {"error": "unknown device"}
-
     return device
-
 
 @app.post("/revoke/{device_id}")
 async def revoke(device_id: str):
-
     if device_id in device_registry:
         device_registry[device_id]["revoked"] = True
         print(f"Device revoked: {device_id}")
         return {"status": "revoked"}
-
     return {"error": "unknown device"}
 
-
 # ======================================================
-# EXISTING CLOUD SERVICES
+# STATELESS MERKLE VERIFICATION SERVICES
 # ======================================================
 
-ingested_telemetry = {}
-
-def hash_record(counter, message):
-    data = f"{counter}:{message}".encode()
-    return hashlib.sha256(data).hexdigest()
-
-def build_merkle_root(hashes):
-    if not hashes:
-        return ""
-    nodes = hashes[:]
-    while len(nodes) > 1:
-        if len(nodes) % 2 == 1:
-            nodes.append(nodes[-1])
-        new_level = []
-        for i in range(0, len(nodes), 2):
-            combined = nodes[i] + nodes[i+1]
-            new_hash = hashlib.sha256(combined.encode()).hexdigest()
-            new_level.append(new_hash)
-        nodes = new_level
-    return nodes[0]
+force_tamper_next_request = False
 
 @app.post("/tamper")
 async def tamper():
-    if ingested_telemetry:
-        latest_counter = max(ingested_telemetry.keys())
-        ingested_telemetry[latest_counter] += "_TAMPERED_MANUALLY"
-        print(f"User manually poisoned the Cloud's data for counter {latest_counter}!")
-        return {"status": f"tampered counter {latest_counter}"}
-    return {"status": "no data to tamper yet"}
+    global force_tamper_next_request
+    force_tamper_next_request = True
+    print("User manually triggered tampering for the next incoming anchor request!")
+    return {"status": "tampering_armed"}
 
 @app.post("/ingest")
 async def ingest(data: dict):
-    counter = data.get("counter")
-    message = data.get("message")
-    if counter is not None:
-        ingested_telemetry[counter] = message
-    print(f"Cloud received telemetry counter={counter}")
+    # The Cloud is now completely stateless and no longer buffers full telemetry for tree reconstruction.
+    print(f"Cloud passively received via /ingest: counter={data.get('counter')}")
     return {"status": "ok"}
 
+def verify_merkle_proof(record_bytes: bytes, proof: list, root: str, index: int) -> bool:
+    """Verifies a single Merkle Proof probabilistically."""
+    computed_hash = hashlib.sha256(record_bytes).hexdigest()
+    
+    for sibling in proof:
+        if index % 2 == 0:
+            combined = bytes.fromhex(computed_hash) + bytes.fromhex(sibling)
+        else:
+            combined = bytes.fromhex(sibling) + bytes.fromhex(computed_hash)
+        computed_hash = hashlib.sha256(combined).hexdigest()
+        index = index // 2
+        
+    return computed_hash == root
 
 @app.post("/anchor")
 async def anchor(data: dict):
+    global force_tamper_next_request
+    
     batch_start = data.get("batch_start")
     batch_end = data.get("batch_end")
-    provided_root = data.get("merkle_root")
+    batch_size = data.get("batch_size", 0)
+    root = data.get("root")
+    proofs = data.get("proofs", [])
 
-    print(f"Cloud received anchor request for batch {batch_start}-{batch_end}")
+    print(f"\nCloud received anchor request for batch {batch_start}-{batch_end} (size: {batch_size})")
 
-    # Reconstruct the batch from ingested data
-    relevant_counters = [c for c in ingested_telemetry.keys() if batch_start <= c <= batch_end]
+    if batch_size < 8:
+        print("Tampering detected: batch size is smaller than constraint expected!")
+        return {"status": "tampered", "reason": "batch_too_small"}
+        
+    if len(proofs) == 0:
+        print("Tampering detected: No proofs appended!")
+        return {"status": "tampered", "reason": "no_proofs"}
 
-    if not relevant_counters:
-        print("Tampering detected: No data found for batch.")
-        return {"status": "tampered", "reason": "missing_data"}
+    # Simulate adversarial tampering dynamically for MVP testing if flagged
+    if force_tamper_next_request:
+        if len(proofs) > 0:
+            # Flip a byte directly inside the first hex string of the first proof
+            if len(proofs[0]["proof"]) > 0:
+                print("Simulating adversarial proof corruption!")
+                original = proofs[0]["proof"][0]
+                proofs[0]["proof"][0] = "00" + original[2:]
+        force_tamper_next_request = False
 
-    relevant_counters.sort()
+    for idx, p in enumerate(proofs):
+        try:
+            record_b64 = p.get("record")
+            proof_array = p.get("proof")
+            leaf_index = p.get("index")
 
-    hashes = [hash_record(c, ingested_telemetry[c]) for c in relevant_counters]
-    computed_root = build_merkle_root(hashes)
+            # Must securely decode the canonical bytes exactly as the fog built them
+            record_bytes = base64.b64decode(record_b64)
 
-    if computed_root == provided_root:
-        print(f"Merkle root verified: {computed_root}")
-        return {"status": "verified"}
-    else:
-        print(f"Tampering detected! Expected root: {provided_root}, Computed root: {computed_root}")
-        return {"status": "tampered", "reason": "merkle_root_mismatch"}
+            # Verification short-circuits instantly upon the first cryptographic anomaly
+            valid = verify_merkle_proof(record_bytes, proof_array, root, leaf_index)
+            if not valid:
+                print(f"Tampering detected! Proof {idx+1}/{len(proofs)} computationally failed against root {root}")
+                return {"status": "tampered"}
+                
+        except Exception as e:
+            print(f"Tampering or Decoding Error constraint: {e}")
+            return {"status": "tampered", "reason": "payload_corrupt"}
+
+    print(f"Successfully cryptographically verified {len(proofs)} proofs for root: {root}")
+    return {"status": "verified"}

@@ -82,29 +82,41 @@ print(f"Recovered last_counter = {last_counter}")
 # Merkle Utilities
 # ---------------------------
 
-def hash_record(counter, message):
-    data = f"{counter}:{message}".encode()
-    return hashlib.sha256(data).hexdigest()
-
-def build_merkle_root(hashes):
-
-    nodes = hashes[:]
-
+def build_merkle_tree_with_proofs(leaves):
+    if not leaves:
+        return "", []
+    
+    proofs = [[] for _ in leaves]
+    nodes = leaves[:]
+    node_indices = [[i] for i in range(len(leaves))]
+    
     while len(nodes) > 1:
-
         if len(nodes) % 2 == 1:
             nodes.append(nodes[-1])
-
+            node_indices.append(node_indices[-1])
+            
         new_level = []
-
+        new_indices = []
+        
         for i in range(0, len(nodes), 2):
-            combined = nodes[i] + nodes[i+1]
-            new_hash = hashlib.sha256(combined.encode()).hexdigest()
+            left = nodes[i]
+            right = nodes[i+1]
+            
+            for leaf_idx in node_indices[i]:
+                proofs[leaf_idx].append(right)
+            for leaf_idx in node_indices[i+1]:
+                proofs[leaf_idx].append(left)
+                
+            combined = bytes.fromhex(left) + bytes.fromhex(right)
+            new_hash = hashlib.sha256(combined).hexdigest()
+            
             new_level.append(new_hash)
-
+            new_indices.append(node_indices[i] + node_indices[i+1])
+            
         nodes = new_level
-
-    return nodes[0]
+        node_indices = new_indices
+        
+    return nodes[0], proofs
 
 # ---------------------------
 # Batch State
@@ -179,21 +191,25 @@ while True:
         print("Cloud unreachable:", e)
 
     # ---------------------------
-    # Merkle batching
+    # Merkle batching and Proof generation
     # ---------------------------
 
-    record_hash = hash_record(counter, message)
-
-    if batch_start_counter is None:
-        batch_start_counter = counter
-
-    batch_buffer.append(record_hash)
+    raw_record_bytes = f"{counter}:{message}".encode()
+    batch_buffer.append((counter, raw_record_bytes))
 
     if len(batch_buffer) >= BATCH_SIZE:
 
-        root = build_merkle_root(batch_buffer)
+        # 1. Deterministic sorting by counter explicitly
+        batch_buffer.sort(key=lambda x: x[0])
 
-        batch_end = counter
+        batch_start_counter = batch_buffer[0][0]
+        batch_end = batch_buffer[-1][0]
+
+        # 2. Extract strictly sha256 hashes of standard raw bytes for the leaves
+        leaf_hashes = [hashlib.sha256(item[1]).hexdigest() for item in batch_buffer]
+        
+        # 3. Build tree and proofs using standard raw byte hex concatenation
+        root, proofs = build_merkle_tree_with_proofs(leaf_hashes)
 
         cursor.execute(
             "INSERT INTO merkle_roots (batch_start, batch_end, merkle_root) VALUES (?, ?, ?)",
@@ -205,14 +221,33 @@ while True:
         print(f"Merkle batch committed {batch_start_counter}-{batch_end}")
         print(f"Merkle root: {root}")
 
-        # Send root to cloud
+        # 4. Probabilistic sampling exactly as requested
+        import random
+        import base64
+        sample_size = min(2, len(batch_buffer))
+        sampled_indices = random.sample(range(len(batch_buffer)), sample_size)
+        
+        proofs_payload = []
+        for idx in sampled_indices:
+            raw_bytes = batch_buffer[idx][1]
+            b64_record = base64.b64encode(raw_bytes).decode('utf-8')
+            proofs_payload.append({
+                "record": b64_record,
+                "proof": proofs[idx],
+                "index": idx
+            })
+
+        # Send root and proofs asynchronously to cloud API
         try:
             resp = requests.post(
                 "http://cloud:8000/anchor",
                 json={
                     "batch_start": batch_start_counter,
                     "batch_end": batch_end,
-                    "merkle_root": root
+                    "batch_size": len(batch_buffer),
+                    "root": root,
+                    "proofs": proofs_payload,
+                    "fog_id": "fog_1"
                 }
             )
             if resp.status_code == 200:
@@ -223,4 +258,3 @@ while True:
             print("Merkle anchor failed:", e)
 
         batch_buffer = []
-        batch_start_counter = None
