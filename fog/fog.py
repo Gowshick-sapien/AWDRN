@@ -168,6 +168,20 @@ while True:
     print("Stored in SQLite")
 
     # ---------------------------
+    # Forward to cloud (with 20% chance to tamper for testing!)
+    # ---------------------------
+    import random
+    if random.random() < 0.2:
+        json_payload = {"message": "TAMPERED_MALICIOUS_DATA!!!", "counter": counter}
+    else:
+        json_payload = {"message": message, "counter": counter}
+
+    try:
+        requests.post("http://cloud:8000/ingest", json=json_payload)
+    except Exception as e:
+        print("Cloud unreachable:", e)
+
+    # ---------------------------
     # Merkle batching
     # ---------------------------
 
@@ -196,7 +210,7 @@ while True:
 
         # Send root to cloud
         try:
-            requests.post(
+            resp = requests.post(
                 "http://cloud:8000/anchor",
                 json={
                     "batch_start": batch_start_counter,
@@ -204,19 +218,12 @@ while True:
                     "merkle_root": root
                 }
             )
+            if resp.status_code == 200:
+                resp_data = resp.json()
+                if resp_data.get("status") == "tampered":
+                    print("\n🚨 CLOUD DETECTED DATA TAMPERING! 🚨\n")
         except Exception as e:
             print("Merkle anchor failed:", e)
 
         batch_buffer = []
         batch_start_counter = None
-
-    # ---------------------------
-    # Forward to cloud
-    # ---------------------------
-
-    json_payload = {"message": message, "counter": counter}
-
-    try:
-        requests.post("http://cloud:8000/ingest", json=json_payload)
-    except Exception as e:
-        print("Cloud unreachable:", e)
