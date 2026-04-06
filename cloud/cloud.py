@@ -1,5 +1,6 @@
 import hashlib
 import base64
+import time
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -43,6 +44,7 @@ async def revoke(device_id: str):
 # ======================================================
 
 force_tamper_next_request = False
+tamper_count = 0
 
 @app.post("/tamper")
 async def tamper():
@@ -74,20 +76,32 @@ def verify_merkle_proof(record_bytes: bytes, proof: list, root: str, index: int)
 @app.post("/anchor")
 async def anchor(data: dict):
     global force_tamper_next_request
+    global tamper_count
     
+    batch_id = data.get("batch_id")
     batch_start = data.get("batch_start")
     batch_end = data.get("batch_end")
     batch_size = data.get("batch_size", 0)
     root = data.get("root")
     proofs = data.get("proofs", [])
+    
+    t_sent = data.get("timestamp")
+    if t_sent:
+        t_now = time.time()
+        latency = (t_now - t_sent) * 1000
+        print(f"[METRIC] End-to-End Latency: {latency:.2f} ms")
 
-    print(f"\nCloud received anchor request for batch {batch_start}-{batch_end} (size: {batch_size})")
+    print(f"\nCloud received anchor request for Batch {batch_id} (counters {batch_start}-{batch_end})")
 
     if batch_size < 8:
+        tamper_count += 1
+        print(f"[METRIC] Tampering Detected Count: {tamper_count}")
         print("Tampering detected: batch size is smaller than constraint expected!")
         return {"status": "tampered", "reason": "batch_too_small"}
         
     if len(proofs) == 0:
+        tamper_count += 1
+        print(f"[METRIC] Tampering Detected Count: {tamper_count}")
         print("Tampering detected: No proofs appended!")
         return {"status": "tampered", "reason": "no_proofs"}
 
@@ -111,10 +125,20 @@ async def anchor(data: dict):
             record_bytes = base64.b64decode(record_b64)
 
             # Verification short-circuits instantly upon the first cryptographic anomaly
+            start_verify = time.time()
             valid = verify_merkle_proof(record_bytes, proof_array, root, leaf_index)
+            end_verify = time.time()
+            print(f"[METRIC] Verification Time: {(end_verify - start_verify)*1000:.2f} ms")
+            
             if not valid:
-                print(f"Tampering detected! Proof {idx+1}/{len(proofs)} computationally failed against root {root}")
-                return {"status": "tampered"}
+                tamper_count += 1
+                print(f"[METRIC] Tampering Detected Count: {tamper_count}")
+                print(f"[ANCHOR VERIFY FAIL] Batch {batch_id}, Index {leaf_index}")
+                return {
+                    "status": "tampered",
+                    "failed_index": leaf_index,
+                    "reason": "proof_mismatch"
+                }
                 
         except Exception as e:
             print(f"Tampering or Decoding Error constraint: {e}")
@@ -122,3 +146,24 @@ async def anchor(data: dict):
 
     print(f"Successfully cryptographically verified {len(proofs)} proofs for root: {root}")
     return {"status": "verified"}
+
+@app.post("/reconcile_request")
+async def reconcile_request(data: dict):
+    batch_id = data.get("batch_id")
+    index = data.get("index")
+    root = data.get("root")
+    record_b64 = data.get("record")
+    proof_array = data.get("proof", [])
+    
+    print(f"\n[RECONCILE RECEIVED] Batch {batch_id}, Index {index}")
+    
+    try:
+        record_bytes = base64.b64decode(record_b64)
+        if verify_merkle_proof(record_bytes, proof_array, root, index):
+            print("[RECONCILE SUCCESS] Transient error resolved")
+            return {"status": "resolved"}
+        else:
+            print("[RECONCILE FAIL] Proof remains mathematically invalid!")
+            return {"status": "persistent_tampering"}
+    except Exception as e:
+        return {"status": "persistent_tampering", "reason": "decode_error"}

@@ -3,6 +3,7 @@ import requests
 import sqlite3
 import struct
 import hashlib
+import time
 from nacl.signing import VerifyKey
 from nacl.exceptions import BadSignatureError
 
@@ -123,7 +124,10 @@ def build_merkle_tree_with_proofs(leaves):
 # ---------------------------
 
 batch_buffer = []
-batch_start_counter = None
+batch_id = 0
+
+packet_count = 0
+start_time = time.time()
 
 # ---------------------------
 # Main Receive Loop
@@ -132,6 +136,15 @@ batch_start_counter = None
 while True:
 
     data, addr = sock.recvfrom(2048)
+    packet_timestamp = time.time()
+    packet_count += 1
+    
+    if time.time() - start_time >= 5:
+        throughput = packet_count / (time.time() - start_time)
+        print(f"[METRIC] Throughput: {throughput:.2f} packets/sec")
+        packet_count = 0
+        start_time = time.time()
+
 
     signature = data[-SIGNATURE_SIZE:]
     structured = data[:-SIGNATURE_SIZE]
@@ -195,9 +208,11 @@ while True:
     # ---------------------------
 
     raw_record_bytes = f"{counter}:{message}".encode()
-    batch_buffer.append((counter, raw_record_bytes))
+    batch_buffer.append((counter, raw_record_bytes, packet_timestamp))
 
     if len(batch_buffer) >= BATCH_SIZE:
+
+        batch_id += 1
 
         # 1. Deterministic sorting by counter explicitly
         batch_buffer.sort(key=lambda x: x[0])
@@ -238,23 +253,65 @@ while True:
             })
 
         # Send root and proofs asynchronously to cloud API
-        try:
-            resp = requests.post(
-                "http://cloud:8000/anchor",
-                json={
-                    "batch_start": batch_start_counter,
-                    "batch_end": batch_end,
-                    "batch_size": len(batch_buffer),
-                    "root": root,
-                    "proofs": proofs_payload,
-                    "fog_id": "fog_1"
-                }
-            )
-            if resp.status_code == 200:
-                resp_data = resp.json()
-                if resp_data.get("status") == "tampered":
-                    print("\n🚨 CLOUD DETECTED DATA TAMPERING! 🚨\n")
-        except Exception as e:
-            print("Merkle anchor failed:", e)
+        reconcile_attempted = False
+        anchor_success = False
+
+        # Use the timestamp of the last packet in the batch for latency calculation
+        anchor_timestamp = batch_buffer[-1][2]
+
+        while not anchor_success and not reconcile_attempted:
+            try:
+                resp = requests.post(
+                    "http://cloud:8000/anchor",
+                    json={
+                        "batch_id": batch_id,
+                        "batch_start": batch_start_counter,
+                        "batch_end": batch_end,
+                        "batch_size": len(batch_buffer),
+                        "root": root,
+                        "proofs": proofs_payload,
+                        "fog_id": "fog_1",
+                        "timestamp": anchor_timestamp
+                    }
+                )
+                if resp.status_code == 200:
+                    resp_data = resp.json()
+                    if resp_data.get("status") == "tampered":
+                        failed_idx = resp_data.get("failed_index")
+                        print(f"\n[ANCHOR FAILED] Batch {batch_id}, Index {failed_idx}")
+                        
+                        t_detected = time.time()
+                        
+                        # Full Reconciliation Protocol
+                        reconcile_attempted = True
+                        print("[RECONCILE] Sending recovery proof...")
+                        
+                        raw_bytes = batch_buffer[failed_idx][1]
+                        b64_record = base64.b64encode(raw_bytes).decode('utf-8')
+                        
+                        rec_resp = requests.post(
+                            "http://cloud:8000/reconcile_request",
+                            json={
+                                "batch_id": batch_id,
+                                "index": failed_idx,
+                                "record": b64_record,
+                                "proof": proofs[failed_idx],
+                                "root": root
+                            }
+                        )
+                        
+                        rec_data = rec_resp.json()
+                        if rec_data.get("status") == "resolved":
+                            t_resolved = time.time()
+                            print("[RECONCILE SUCCESS] Transient error resolved\n")
+                            print(f"[METRIC] Reconciliation Time: {t_resolved - t_detected:.4f} sec")
+                            anchor_success = True
+                        else:
+                            print("\n🚨 FATAL: PERSISTENT CLOUD DATA TAMPERING! 🚨\n")
+                    else:
+                        anchor_success = True
+            except Exception as e:
+                print("Merkle anchor failed:", e)
+                break
 
         batch_buffer = []

@@ -1,0 +1,3116 @@
+Fog listening on UDP 9100
+Recovered last_counter = -1
+VALID packet counter=0
+Stored in SQLite
+VALID packet counter=1
+Stored in SQLite
+[METRIC] Throughput: 0.46 packets/sec
+VALID packet counter=2
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=4
+Stored in SQLite
+VALID packet counter=5
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=6
+Stored in SQLite
+VALID packet counter=7
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=10
+Stored in SQLite
+Merkle batch committed 0-10
+Merkle root: 4896a8b601278db4b9e44de4be5b605ea2c0d0208cc10c444e72579926a7645e
+VALID packet counter=11
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=13
+Stored in SQLite
+VALID packet counter=14
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=15
+Stored in SQLite
+VALID packet counter=16
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=17
+Stored in SQLite
+VALID packet counter=18
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=19
+Stored in SQLite
+Merkle batch committed 11-19
+Merkle root: c75d79638b8f05b1320e24409fac867d583dcffd31b62cad36f3745124cfec37
+VALID packet counter=20
+Stored in SQLite
+[METRIC] Throughput: 0.13 packets/sec
+VALID packet counter=24
+Stored in SQLite
+VALID packet counter=25
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=27
+Stored in SQLite
+VALID packet counter=28
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=29
+Stored in SQLite
+VALID packet counter=30
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=31
+Stored in SQLite
+Merkle batch committed 20-31
+Merkle root: 9b92f741ee5f4e26417e36a9d6d19f818cb767b0eabca1b73b49ca615738873f
+
+[ANCHOR FAILED] Batch 3, Index 6
+[RECONCILE] Sending recovery proof...
+[RECONCILE SUCCESS] Transient error resolved
+
+[METRIC] Reconciliation Time: 0.0019 sec
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=33
+Stored in SQLite
+VALID packet counter=34
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=35
+Stored in SQLite
+VALID packet counter=36
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=37
+Stored in SQLite
+VALID packet counter=38
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=40
+Stored in SQLite
+VALID packet counter=41
+Stored in SQLite
+Merkle batch committed 33-41
+Merkle root: a66f9fc4345f59984e79767f5f0c448b98d497f109b00060cf9c3bf00498b68f
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=43
+Stored in SQLite
+VALID packet counter=44
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=45
+Stored in SQLite
+VALID packet counter=46
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=47
+Stored in SQLite
+VALID packet counter=48
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=50
+Stored in SQLite
+VALID packet counter=51
+Stored in SQLite
+Merkle batch committed 43-51
+Merkle root: 7d0059cd4a22cae6937d8e7a95bc22d77366d0e26ec09a1f08c428d681752551
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=53
+Stored in SQLite
+VALID packet counter=54
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=55
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=57
+Stored in SQLite
+VALID packet counter=58
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=60
+Stored in SQLite
+VALID packet counter=61
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=62
+Stored in SQLite
+Merkle batch committed 53-62
+Merkle root: 09af0537afd65c7914c27078cc3a11afc9ffc9d132d39c46367dae8e3c8088b4
+VALID packet counter=63
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=64
+Stored in SQLite
+VALID packet counter=65
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=66
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=68
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=71
+Stored in SQLite
+VALID packet counter=72
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=75
+Stored in SQLite
+Merkle batch committed 63-75
+Merkle root: 8a25b36705f84dacb878a2ee40b441ac7619f2760f5302484cd3d35f326f4635
+VALID packet counter=76
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=77
+Stored in SQLite
+VALID packet counter=78
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=79
+Stored in SQLite
+VALID packet counter=80
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=81
+Stored in SQLite
+VALID packet counter=82
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=83
+Stored in SQLite
+Merkle batch committed 76-83
+Merkle root: 5d8cc66a8d047823ccfa8618a7a0bc4e6acd821c394ac9dbc726db312eaa2566
+
+[ANCHOR FAILED] Batch 8, Index 7
+[RECONCILE] Sending recovery proof...
+[RECONCILE SUCCESS] Transient error resolved
+
+[METRIC] Reconciliation Time: 0.0020 sec
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=85
+Stored in SQLite
+VALID packet counter=86
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=87
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=89
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=91
+Stored in SQLite
+VALID packet counter=92
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=93
+Stored in SQLite
+VALID packet counter=94
+Stored in SQLite
+Merkle batch committed 85-94
+Merkle root: 4609311f5e705d414544466a12286280e1c5624951ffa0e2985bd89a4d601f57
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=95
+Stored in SQLite
+VALID packet counter=96
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=98
+Stored in SQLite
+VALID packet counter=99
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=102
+Stored in SQLite
+VALID packet counter=103
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=104
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=106
+Stored in SQLite
+Merkle batch committed 95-106
+Merkle root: 043f771bbeccbda303f8edd54f298c974e848b79ef61590cd7125e1e3659db46
+VALID packet counter=107
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=110
+Stored in SQLite
+VALID packet counter=111
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=112
+Stored in SQLite
+VALID packet counter=113
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=114
+Stored in SQLite
+VALID packet counter=115
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=117
+Stored in SQLite
+Merkle batch committed 107-117
+Merkle root: 5196cd90532266c53de406de33d4d31dce7c08406bd43b8e0183f3e7f15a5437
+VALID packet counter=118
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=121
+Stored in SQLite
+VALID packet counter=122
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=123
+Stored in SQLite
+VALID packet counter=124
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=126
+Stored in SQLite
+VALID packet counter=127
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=128
+Stored in SQLite
+Merkle batch committed 118-128
+Merkle root: ae5ddda5702a3a5be0730e3b11a3330cf655e19a054e124e1509c06ab6d46ce5
+VALID packet counter=129
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=130
+Stored in SQLite
+VALID packet counter=131
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=132
+Stored in SQLite
+VALID packet counter=133
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=134
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=136
+Stored in SQLite
+VALID packet counter=137
+Stored in SQLite
+Merkle batch committed 129-137
+Merkle root: ce84e22e5e98f2a80e6abe0ce04e7fb1f0f01d5dcb4f5bd9fceacc8b307aaf98
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=138
+Stored in SQLite
+VALID packet counter=139
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=140
+Stored in SQLite
+VALID packet counter=141
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=142
+Stored in SQLite
+VALID packet counter=143
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=144
+Stored in SQLite
+VALID packet counter=145
+Stored in SQLite
+Merkle batch committed 138-145
+Merkle root: d92b6fff6cce0877e4a3f639f06ad05377fa3875e3e11ae858cf014b7d4f3271
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=146
+Stored in SQLite
+VALID packet counter=147
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=149
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=151
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=153
+Stored in SQLite
+VALID packet counter=154
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=155
+Stored in SQLite
+VALID packet counter=156
+Stored in SQLite
+Merkle batch committed 146-156
+Merkle root: ab144e45382f78a1628af33d14c5802492b75c9526122d4e3ffcbaccf4b3b135
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=157
+Stored in SQLite
+VALID packet counter=158
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=159
+Stored in SQLite
+VALID packet counter=160
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=162
+Stored in SQLite
+VALID packet counter=163
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=164
+Stored in SQLite
+VALID packet counter=165
+Stored in SQLite
+Merkle batch committed 157-165
+Merkle root: ad78b2b593fa0a2877a9e9c86c06d6913161bae3ac63e0b38d47a27710ac275e
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=167
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=170
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=173
+Stored in SQLite
+VALID packet counter=174
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=175
+Stored in SQLite
+VALID packet counter=176
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=177
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=179
+Stored in SQLite
+Merkle batch committed 167-179
+Merkle root: 9fff8f7ae04c4fe9675dbcc8b6f8042515173e11f3b9c92433635b9bd39f5509
+VALID packet counter=180
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=181
+Stored in SQLite
+VALID packet counter=182
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=183
+Stored in SQLite
+VALID packet counter=184
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=185
+Stored in SQLite
+VALID packet counter=186
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=187
+Stored in SQLite
+Merkle batch committed 180-187
+Merkle root: 4a499e98fc175ffcebe2128fdc576a8aa7f97a938512bcd25b81718afbc889f0
+VALID packet counter=188
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=189
+Stored in SQLite
+VALID packet counter=190
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=191
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=193
+Stored in SQLite
+VALID packet counter=194
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=195
+Stored in SQLite
+VALID packet counter=196
+Stored in SQLite
+Merkle batch committed 188-196
+Merkle root: a2993f78708961e774ed8db8429bf3a89685294a2d3237557df51db17342e8b5
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=197
+Stored in SQLite
+VALID packet counter=198
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=200
+Stored in SQLite
+VALID packet counter=201
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=202
+Stored in SQLite
+VALID packet counter=203
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=204
+Stored in SQLite
+VALID packet counter=205
+Stored in SQLite
+Merkle batch committed 197-205
+Merkle root: 744c672945980927fb7a4f88881b82be2280cb8e4b0ba19eaf7e5ef07c0cab06
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=206
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=208
+Stored in SQLite
+VALID packet counter=209
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=210
+Stored in SQLite
+VALID packet counter=211
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=212
+Stored in SQLite
+VALID packet counter=213
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=215
+Stored in SQLite
+Merkle batch committed 206-215
+Merkle root: d32c28c4e5aeb745a5bd44142179a8c9c5ebfb1ba23e08b36d86c6ee99ea4102
+VALID packet counter=216
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=217
+Stored in SQLite
+VALID packet counter=218
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=219
+Stored in SQLite
+VALID packet counter=220
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=221
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=224
+Stored in SQLite
+VALID packet counter=225
+Stored in SQLite
+Merkle batch committed 216-225
+Merkle root: abcc868db0e1c986b0c01bb919140f775fe7b3619f599ad3f92028bbfb891f75
+
+[ANCHOR FAILED] Batch 22, Index 2
+[RECONCILE] Sending recovery proof...
+[RECONCILE SUCCESS] Transient error resolved
+
+[METRIC] Reconciliation Time: 0.0025 sec
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=227
+Stored in SQLite
+VALID packet counter=228
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=229
+Stored in SQLite
+VALID packet counter=230
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=231
+Stored in SQLite
+VALID packet counter=232
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=233
+Stored in SQLite
+VALID packet counter=234
+Stored in SQLite
+Merkle batch committed 227-234
+Merkle root: b526c751763cf0fa217964601749b7f9a7bed07710a30d0ae186f12fe87e88a8
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=235
+Stored in SQLite
+VALID packet counter=236
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=238
+Stored in SQLite
+VALID packet counter=239
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=240
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=242
+Stored in SQLite
+VALID packet counter=243
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=244
+Stored in SQLite
+Merkle batch committed 235-244
+Merkle root: 9e4758e4bd5a8cfb24580c4d5fd6270bfa91fa21d4f97a525007a8f98343224f
+VALID packet counter=245
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=246
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=248
+Stored in SQLite
+VALID packet counter=249
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=251
+Stored in SQLite
+VALID packet counter=252
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=253
+Stored in SQLite
+VALID packet counter=254
+Stored in SQLite
+Merkle batch committed 245-254
+Merkle root: 1f698d569ef7013d1cf053343f8b7e2e5d390f697b73f6fc9ca7e7531308944a
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=255
+Stored in SQLite
+VALID packet counter=256
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=258
+Stored in SQLite
+VALID packet counter=259
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=260
+Stored in SQLite
+VALID packet counter=261
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=262
+Stored in SQLite
+VALID packet counter=263
+Stored in SQLite
+Merkle batch committed 255-263
+Merkle root: 191526380e2ecefb5acc052e3098ffd09d525a4d6cb5dc02d461794263b98a3f
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=264
+Stored in SQLite
+VALID packet counter=265
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=266
+Stored in SQLite
+VALID packet counter=267
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=269
+Stored in SQLite
+VALID packet counter=270
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=271
+Stored in SQLite
+VALID packet counter=272
+Stored in SQLite
+Merkle batch committed 264-272
+Merkle root: 8a5b6867dfa678fe3d5e233779e747e4b2faa95a40524a5fc4bed3fb99108664
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=274
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=276
+Stored in SQLite
+VALID packet counter=277
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=278
+Stored in SQLite
+VALID packet counter=279
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=280
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=282
+Stored in SQLite
+VALID packet counter=283
+Stored in SQLite
+Merkle batch committed 274-283
+Merkle root: eef31a8f1cb88e0b9dca7cf3ff0c35f1dc3d2afd49297c25898339c2f51c3b5c
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=285
+Stored in SQLite
+VALID packet counter=286
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=289
+Stored in SQLite
+VALID packet counter=290
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=291
+Stored in SQLite
+VALID packet counter=292
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=294
+Stored in SQLite
+VALID packet counter=295
+Stored in SQLite
+Merkle batch committed 285-295
+Merkle root: 077d062abc3e9e2d9bd3856517fc93ff8a1c21904db859a6e7c23fc23c0f95ba
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=297
+Stored in SQLite
+VALID packet counter=298
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=299
+Stored in SQLite
+VALID packet counter=300
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=302
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=304
+Stored in SQLite
+VALID packet counter=305
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=307
+Stored in SQLite
+Merkle batch committed 297-307
+Merkle root: 3ff8c3c890c000d344552911ea2f31de5150ae262d1b07464fabfbd2db84e9e9
+VALID packet counter=308
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=309
+Stored in SQLite
+VALID packet counter=310
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=311
+Stored in SQLite
+VALID packet counter=312
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=313
+Stored in SQLite
+VALID packet counter=314
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=316
+Stored in SQLite
+Merkle batch committed 308-316
+Merkle root: 36529ad67a62da5d85c467d2fd5cafc50bbdbf7a882ec3c8e3b7cc4773c73c0f
+VALID packet counter=317
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=318
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=320
+Stored in SQLite
+VALID packet counter=321
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=322
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=324
+Stored in SQLite
+VALID packet counter=325
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=326
+Stored in SQLite
+Merkle batch committed 317-326
+Merkle root: 5bf7c1873874a4dd23b5902eafdb12c8a648b7c5b8d1b5a7a6078ef930827edc
+VALID packet counter=327
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=328
+Stored in SQLite
+VALID packet counter=329
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=330
+Stored in SQLite
+VALID packet counter=331
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=332
+Stored in SQLite
+VALID packet counter=333
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=334
+Stored in SQLite
+Merkle batch committed 327-334
+Merkle root: 72d7125c4512643c1ab376b9c0ff2eb15395e01d7ccd96ab6e8a4acbf322c233
+VALID packet counter=335
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=336
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=339
+Stored in SQLite
+VALID packet counter=340
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=341
+Stored in SQLite
+VALID packet counter=342
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=344
+Stored in SQLite
+VALID packet counter=345
+Stored in SQLite
+Merkle batch committed 335-345
+Merkle root: af28153013267ec083ac223bddeda527f851b589b6a0674a3da39f6767d6af1e
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=346
+Stored in SQLite
+VALID packet counter=347
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=348
+Stored in SQLite
+VALID packet counter=349
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=350
+Stored in SQLite
+VALID packet counter=351
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=352
+Stored in SQLite
+VALID packet counter=353
+Stored in SQLite
+Merkle batch committed 346-353
+Merkle root: 28c5c96873658ed3f5ca4042547751f5ca873ab6f57c80e6ba752fcfc1a00c99
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=354
+Stored in SQLite
+VALID packet counter=355
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=356
+Stored in SQLite
+VALID packet counter=357
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=358
+Stored in SQLite
+VALID packet counter=359
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=360
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=362
+Stored in SQLite
+Merkle batch committed 354-362
+Merkle root: 16d3bde2748abc142a646b93cadc19a41bd5f6961ebdfa4ca2dd6b4efd07cd31
+VALID packet counter=363
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=365
+Stored in SQLite
+VALID packet counter=366
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=367
+Stored in SQLite
+VALID packet counter=368
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=369
+Stored in SQLite
+VALID packet counter=370
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=371
+Stored in SQLite
+Merkle batch committed 363-371
+Merkle root: d3ae382e50d91dd639e59d4d729cac2d6f4fae56e2d588ec94483569615d7145
+VALID packet counter=372
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=373
+Stored in SQLite
+VALID packet counter=374
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=375
+Stored in SQLite
+VALID packet counter=376
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=377
+Stored in SQLite
+VALID packet counter=378
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=379
+Stored in SQLite
+Merkle batch committed 372-379
+Merkle root: 6d4e074b4d8eac3df1362199de2082bfe1ea414b3c484940f7fe848a2a992672
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=381
+Stored in SQLite
+VALID packet counter=382
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=383
+Stored in SQLite
+VALID packet counter=384
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=385
+Stored in SQLite
+VALID packet counter=386
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=388
+Stored in SQLite
+VALID packet counter=389
+Stored in SQLite
+Merkle batch committed 381-389
+Merkle root: 3741cc2c2809f3b605d5e0a582d125a41a833a35c0e420cdadd84a6c7d141958
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=390
+Stored in SQLite
+VALID packet counter=391
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=392
+Stored in SQLite
+VALID packet counter=393
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=394
+Stored in SQLite
+VALID packet counter=395
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=397
+Stored in SQLite
+VALID packet counter=398
+Stored in SQLite
+Merkle batch committed 390-398
+Merkle root: a691e38ed42cf0c76a038dc6adcf520ed0225565751bd68b63a1a285e1c761d8
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=399
+Stored in SQLite
+VALID packet counter=400
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=401
+Stored in SQLite
+VALID packet counter=402
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=403
+Stored in SQLite
+VALID packet counter=404
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=405
+Stored in SQLite
+VALID packet counter=406
+Stored in SQLite
+Merkle batch committed 399-406
+Merkle root: 00eee617090b4c6cf749d7bdbb133eaeab022987b169aca79a48f052b66889ac
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=407
+Stored in SQLite
+VALID packet counter=408
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=409
+Stored in SQLite
+VALID packet counter=410
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=412
+Stored in SQLite
+VALID packet counter=413
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=414
+Stored in SQLite
+VALID packet counter=415
+Stored in SQLite
+Merkle batch committed 407-415
+Merkle root: a449ff1ff08726e65a79c933821023dd9fd43731fb2df70b109f3054cb3b0b57
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=416
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=418
+Stored in SQLite
+VALID packet counter=419
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=421
+Stored in SQLite
+VALID packet counter=422
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=423
+Stored in SQLite
+[METRIC] Throughput: 0.08 packets/sec
+VALID packet counter=427
+Stored in SQLite
+VALID packet counter=428
+Stored in SQLite
+Merkle batch committed 416-428
+Merkle root: d29e49c2b1fbdebac286cd512613410c872307f4787645e9b651c5a5c7269081
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=429
+Stored in SQLite
+VALID packet counter=430
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=431
+Stored in SQLite
+VALID packet counter=432
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=434
+Stored in SQLite
+VALID packet counter=435
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=436
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=438
+Stored in SQLite
+Merkle batch committed 429-438
+Merkle root: af3b9920474a6d2f6e5959d47c0a1d928e840b8532998086e39b6406cd90a8d7
+VALID packet counter=439
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=440
+Stored in SQLite
+VALID packet counter=441
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=443
+Stored in SQLite
+VALID packet counter=444
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=445
+Stored in SQLite
+VALID packet counter=446
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=447
+Stored in SQLite
+Merkle batch committed 439-447
+Merkle root: 403070ee24cb537f57e62d14655aef7364c1c36b5e3031eef811f530584075c4
+VALID packet counter=448
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=449
+Stored in SQLite
+VALID packet counter=450
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=451
+Stored in SQLite
+VALID packet counter=452
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=453
+Stored in SQLite
+VALID packet counter=454
+Stored in SQLite
+Fog listening on UDP 9100
+Recovered last_counter = 454
+VALID packet counter=455
+Stored in SQLite
+[METRIC] Throughput: 0.30 packets/sec
+VALID packet counter=457
+Stored in SQLite
+VALID packet counter=458
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=459
+Stored in SQLite
+VALID packet counter=460
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=461
+Stored in SQLite
+VALID packet counter=462
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=463
+Stored in SQLite
+Merkle batch committed 455-463
+Merkle root: 0397c08b652e0b37e564f0b927f1bd96164b33d9108dff963486c1c757dfbb60
+VALID packet counter=464
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=466
+Stored in SQLite
+VALID packet counter=467
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=468
+Stored in SQLite
+VALID packet counter=469
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=470
+Stored in SQLite
+VALID packet counter=471
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=472
+Stored in SQLite
+Merkle batch committed 464-472
+Merkle root: 71164d1f705ae74b60001933eddc0da8e8972807107515e294635f59b187f8a1
+VALID packet counter=473
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=474
+Stored in SQLite
+VALID packet counter=475
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=476
+Stored in SQLite
+VALID packet counter=477
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=478
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=480
+Stored in SQLite
+VALID packet counter=481
+Stored in SQLite
+Merkle batch committed 473-481
+Merkle root: 93b7f2a2d1f4d033a028516a32adf9455165b67fe77e97df3edd943a33b9655c
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=482
+Stored in SQLite
+VALID packet counter=483
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=484
+Stored in SQLite
+VALID packet counter=485
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=486
+Stored in SQLite
+VALID packet counter=487
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=488
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=490
+Stored in SQLite
+Merkle batch committed 482-490
+Merkle root: 675578dfbf13de132b0c16e6147073794bde87924277cb915ce67f0e0805ed70
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=493
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=495
+Stored in SQLite
+VALID packet counter=496
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=498
+Stored in SQLite
+Fog listening on UDP 9100
+Recovered last_counter = 498
+VALID packet counter=500
+Stored in SQLite
+[METRIC] Throughput: 0.38 packets/sec
+VALID packet counter=501
+Stored in SQLite
+VALID packet counter=502
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=503
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=505
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=507
+Stored in SQLite
+VALID packet counter=508
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=509
+Stored in SQLite
+Merkle batch committed 500-509
+Merkle root: 31e69ba52c8e6bf9750ac1e735ce9d3c5a1f800673ba3e97912286ef14e6476d
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=511
+Stored in SQLite
+VALID packet counter=512
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=513
+Stored in SQLite
+VALID packet counter=514
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=515
+Stored in SQLite
+VALID packet counter=516
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=519
+Stored in SQLite
+VALID packet counter=520
+Stored in SQLite
+Merkle batch committed 511-520
+Merkle root: 099f726231933e9d3cd0e2c9486efa53ce07f253c546b1de1d2871367d7538a8
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=521
+Stored in SQLite
+VALID packet counter=522
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=524
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=527
+Stored in SQLite
+VALID packet counter=528
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=529
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=532
+Stored in SQLite
+VALID packet counter=533
+Stored in SQLite
+Merkle batch committed 521-533
+Merkle root: d62d850ada34213719a87eb7c6d229d8dde25a7074aa2aaaaa7c536657116ad2
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=534
+Stored in SQLite
+VALID packet counter=535
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=536
+Stored in SQLite
+VALID packet counter=537
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=538
+Stored in SQLite
+VALID packet counter=539
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=540
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=542
+Stored in SQLite
+Merkle batch committed 534-542
+Merkle root: e07a11108d2fe7c6a6ed3df1a1ed5386943d2773892c504a24b2fb8ad2d9c00c
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=544
+Stored in SQLite
+VALID packet counter=545
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=546
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=549
+Stored in SQLite
+VALID packet counter=550
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=551
+Stored in SQLite
+VALID packet counter=552
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=553
+Stored in SQLite
+Merkle batch committed 544-553
+Merkle root: 6cf506eee5cbf3121528fca3d158772b07d4d9837d219bd0fb281b26bd022771
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=555
+Stored in SQLite
+VALID packet counter=556
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=557
+Stored in SQLite
+VALID packet counter=558
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=559
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=562
+Stored in SQLite
+VALID packet counter=563
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=564
+Stored in SQLite
+Merkle batch committed 555-564
+Merkle root: df21234d0bc5b1925d38235859634bbc87d3082d9ce18362afd40e31807e5b5d
+VALID packet counter=565
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=566
+Stored in SQLite
+VALID packet counter=567
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=568
+Stored in SQLite
+VALID packet counter=569
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=570
+Stored in SQLite
+VALID packet counter=571
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=572
+Stored in SQLite
+Merkle batch committed 565-572
+Merkle root: 6ed5b8cbfd0866dd4614ea2a74e9bc84f8dcb64d0145cd8666811fee8b067083
+VALID packet counter=573
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=574
+Stored in SQLite
+VALID packet counter=575
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=576
+Stored in SQLite
+VALID packet counter=577
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=578
+Stored in SQLite
+VALID packet counter=579
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=580
+Stored in SQLite
+Merkle batch committed 573-580
+Merkle root: 792946d2d77bc66cde4c2c3a7e469dbc88c2be5057bb432fbc256c7c03537560
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=582
+Stored in SQLite
+VALID packet counter=583
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=584
+Stored in SQLite
+VALID packet counter=585
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=586
+Stored in SQLite
+VALID packet counter=587
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=588
+Stored in SQLite
+VALID packet counter=589
+Stored in SQLite
+Merkle batch committed 582-589
+Merkle root: 4eb517d32faabb910dc3326ad22a49113779f7cda28e3dc7b40ac2ddbc36be02
+
+[ANCHOR FAILED] Batch 9, Index 2
+[RECONCILE] Sending recovery proof...
+[RECONCILE SUCCESS] Transient error resolved
+
+[METRIC] Reconciliation Time: 0.0022 sec
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=590
+Stored in SQLite
+VALID packet counter=591
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=592
+Stored in SQLite
+VALID packet counter=593
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=594
+Stored in SQLite
+VALID packet counter=595
+Stored in SQLite
+Fog listening on UDP 9100
+Recovered last_counter = 595
+VALID packet counter=598
+Stored in SQLite
+[METRIC] Throughput: 0.24 packets/sec
+VALID packet counter=600
+Stored in SQLite
+VALID packet counter=601
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=602
+Stored in SQLite
+VALID packet counter=603
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=605
+Stored in SQLite
+VALID packet counter=606
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=607
+Stored in SQLite
+Merkle batch committed 598-607
+Merkle root: 95508f43c9919e0c8dfed60528e9c3214e0b46a2bc84f4f7bf565b2ac1766711
+VALID packet counter=608
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=609
+Stored in SQLite
+VALID packet counter=610
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=611
+Stored in SQLite
+VALID packet counter=612
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=614
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=617
+Stored in SQLite
+VALID packet counter=618
+Stored in SQLite
+Merkle batch committed 608-618
+Merkle root: 8409910decdf7939021ad3f5ef36af6c9dda9c2b4267f0816882cc3d721268ab
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=619
+Stored in SQLite
+VALID packet counter=620
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=622
+Stored in SQLite
+VALID packet counter=623
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=624
+Stored in SQLite
+VALID packet counter=625
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=626
+Stored in SQLite
+VALID packet counter=627
+Stored in SQLite
+Merkle batch committed 619-627
+Merkle root: db035c000bf31b3f1ee5a5ad42a5289675b8ad6ba1dfe73a315d34e589c6e715
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=628
+Stored in SQLite
+VALID packet counter=629
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=630
+Stored in SQLite
+VALID packet counter=631
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=632
+Stored in SQLite
+VALID packet counter=633
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=634
+Stored in SQLite
+VALID packet counter=635
+Stored in SQLite
+Merkle batch committed 628-635
+Merkle root: ce95bf70e04abb8ae37e5ed25924b884383cc1b25c77983d4a87085a459fa58e
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=636
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=638
+Stored in SQLite
+VALID packet counter=639
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=640
+Stored in SQLite
+VALID packet counter=641
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=643
+Stored in SQLite
+VALID packet counter=644
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=645
+Stored in SQLite
+Merkle batch committed 636-645
+Merkle root: 3da2cf10042d25889bc685f82bebb368f584e563d631ba7fbcdde9428923be36
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=647
+Stored in SQLite
+VALID packet counter=648
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=649
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=651
+Stored in SQLite
+VALID packet counter=652
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=653
+Stored in SQLite
+VALID packet counter=654
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=655
+Stored in SQLite
+Merkle batch committed 647-655
+Merkle root: 92dbe156a9d71286ef086622bcdee3f41956d1103f9cb9d514015fcd0d9de889
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=657
+Stored in SQLite
+VALID packet counter=658
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=659
+Stored in SQLite
+VALID packet counter=660
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=661
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=663
+Stored in SQLite
+VALID packet counter=664
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=667
+Stored in SQLite
+Merkle batch committed 657-667
+Merkle root: 96ea9b6533faeaaff48899331caada3997ce11ae3df8bcbf433bdc91d0644963
+VALID packet counter=668
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=669
+Stored in SQLite
+VALID packet counter=670
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=671
+Stored in SQLite
+VALID packet counter=672
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=673
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=675
+Stored in SQLite
+VALID packet counter=676
+Stored in SQLite
+Merkle batch committed 668-676
+Merkle root: 94df9da28bf186abbca5d92e1851a222a5b4bb760855b1b5e3be9118027104a2
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=678
+Stored in SQLite
+VALID packet counter=679
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=680
+Stored in SQLite
+VALID packet counter=681
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=682
+Stored in SQLite
+VALID packet counter=683
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=684
+Stored in SQLite
+VALID packet counter=685
+Stored in SQLite
+Merkle batch committed 678-685
+Merkle root: 1e78da4901b075702dde15aaac559d2dca99f0f543d09655bea282a290c4992e
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=686
+Stored in SQLite
+VALID packet counter=687
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=688
+Stored in SQLite
+VALID packet counter=689
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=690
+Stored in SQLite
+VALID packet counter=691
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=692
+Stored in SQLite
+VALID packet counter=693
+Stored in SQLite
+Merkle batch committed 686-693
+Merkle root: 9c28a683a40c096be06036e6ea2d6df9839332ab81640044adaf5940c9a71946
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=694
+Stored in SQLite
+VALID packet counter=695
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=696
+Stored in SQLite
+VALID packet counter=697
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=698
+Stored in SQLite
+[METRIC] Throughput: 0.12 packets/sec
+VALID packet counter=701
+Stored in SQLite
+VALID packet counter=702
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=703
+Stored in SQLite
+Merkle batch committed 694-703
+Merkle root: 589ca5c67fe7ab0b880203f8cc8a55467b33c15fb9537cf248917860edf50025
+VALID packet counter=704
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=705
+Stored in SQLite
+VALID packet counter=706
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=708
+Stored in SQLite
+VALID packet counter=709
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=710
+Stored in SQLite
+VALID packet counter=711
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=712
+Stored in SQLite
+Merkle batch committed 704-712
+Merkle root: 38e9cac5a57baf9f511610af101192e7c3c174d193e78c3ef6b48151fd27ef04
+VALID packet counter=713
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=714
+Stored in SQLite
+VALID packet counter=715
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=716
+Stored in SQLite
+VALID packet counter=717
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=718
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=720
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=722
+Stored in SQLite
+Merkle batch committed 713-722
+Merkle root: 16eb3e4685322a1f60222cf6466f57ab2dd12730463b7a26272fe53127326a54
+VALID packet counter=723
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=725
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=727
+Stored in SQLite
+VALID packet counter=728
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=729
+Stored in SQLite
+VALID packet counter=730
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=731
+Stored in SQLite
+VALID packet counter=732
+Stored in SQLite
+Merkle batch committed 723-732
+Merkle root: 0e046d2f0489a675e8ab7f6d397b4763288d69addead6afb8afb7876ceb5c8e8
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=734
+Stored in SQLite
+VALID packet counter=735
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=736
+Stored in SQLite
+VALID packet counter=737
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=738
+Stored in SQLite
+VALID packet counter=739
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=741
+Stored in SQLite
+VALID packet counter=742
+Stored in SQLite
+Merkle batch committed 734-742
+Merkle root: beacab603827c40db68306e364f7888a02bc6471ae1a6533238c75c5be0abfa3
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=743
+Stored in SQLite
+VALID packet counter=744
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=745
+Stored in SQLite
+VALID packet counter=746
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=747
+Stored in SQLite
+VALID packet counter=748
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=749
+Stored in SQLite
+VALID packet counter=750
+Stored in SQLite
+Merkle batch committed 743-750
+Merkle root: 0c3ed3c3844b95103f64d3580983db9e38a36a9dbc54b9221e1676de8cc2b0e2
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=751
+Stored in SQLite
+VALID packet counter=752
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=753
+Stored in SQLite
+VALID packet counter=754
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=755
+Stored in SQLite
+VALID packet counter=756
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=757
+Stored in SQLite
+VALID packet counter=758
+Stored in SQLite
+Merkle batch committed 751-758
+Merkle root: 2efcbf9589ba32684e1b8447652199f123328e51dc0a2626dd2b88ff9fd27968
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=759
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=761
+Stored in SQLite
+VALID packet counter=762
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=763
+Stored in SQLite
+VALID packet counter=764
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=765
+Stored in SQLite
+VALID packet counter=766
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=767
+Stored in SQLite
+Merkle batch committed 759-767
+Merkle root: 32aa23fe850eec54033929e17b57bce08b7a207a7400eb6d71374f80e6b07fa8
+VALID packet counter=768
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=769
+Stored in SQLite
+VALID packet counter=770
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=771
+Stored in SQLite
+VALID packet counter=772
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=773
+Stored in SQLite
+VALID packet counter=774
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=775
+Stored in SQLite
+Merkle batch committed 768-775
+Merkle root: 42fd6de5b9be99fa98d2044372604f7f6143107d791ac78b61a5d08b18f40c8c
+VALID packet counter=776
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=777
+Stored in SQLite
+VALID packet counter=778
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=781
+Stored in SQLite
+VALID packet counter=782
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=783
+Stored in SQLite
+VALID packet counter=784
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=785
+Stored in SQLite
+Merkle batch committed 776-785
+Merkle root: bc8dcc46b9f4ff6d43abf8b601a4c0c71c12f5cf2d5d536d87c405be2bea77ba
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=787
+Stored in SQLite
+VALID packet counter=788
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=789
+Stored in SQLite
+VALID packet counter=790
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=791
+Stored in SQLite
+VALID packet counter=792
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=793
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=795
+Stored in SQLite
+Merkle batch committed 787-795
+Merkle root: 978a6b5e40070b5c6722c3d5b2bfe645f1892b68552d89db25831ee7364e9ea8
+VALID packet counter=796
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=797
+Stored in SQLite
+VALID packet counter=798
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=800
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=802
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=804
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=806
+Stored in SQLite
+VALID packet counter=807
+Stored in SQLite
+Merkle batch committed 796-807
+Merkle root: 9c996bc5ca1006f292317dd09f3eec1b5d1ee7e98b1cba93d4df7f68afb85fbc
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=808
+Stored in SQLite
+VALID packet counter=809
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=811
+Stored in SQLite
+VALID packet counter=812
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=814
+Stored in SQLite
+VALID packet counter=815
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=816
+Stored in SQLite
+VALID packet counter=817
+Stored in SQLite
+Merkle batch committed 808-817
+Merkle root: 303510bbbedcf68a096108bb4d960c9afecffe4ac257edc0e2a1be787b551d59
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=818
+Stored in SQLite
+VALID packet counter=819
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=820
+Stored in SQLite
+VALID packet counter=821
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=822
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=825
+Stored in SQLite
+VALID packet counter=826
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=827
+Stored in SQLite
+Merkle batch committed 818-827
+Merkle root: 5633d293e18871f756f000157862c9ce85a9dedc396c8f27abc8047ab8aab1bf
+VALID packet counter=828
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=830
+Stored in SQLite
+VALID packet counter=831
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=832
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=834
+Stored in SQLite
+VALID packet counter=835
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=836
+Stored in SQLite
+VALID packet counter=837
+Stored in SQLite
+Merkle batch committed 828-837
+Merkle root: d2d7079f55d8ba4d1232bd4759b7d0486a61576103fd60c633e5097db0955290
+
+[ANCHOR FAILED] Batch 25, Index 2
+[RECONCILE] Sending recovery proof...
+[RECONCILE SUCCESS] Transient error resolved
+
+[METRIC] Reconciliation Time: 0.0033 sec
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=838
+Stored in SQLite
+VALID packet counter=839
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=841
+Stored in SQLite
+VALID packet counter=842
+Stored in SQLite
+[METRIC] Throughput: 0.14 packets/sec
+VALID packet counter=846
+Stored in SQLite
+VALID packet counter=847
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=848
+Stored in SQLite
+VALID packet counter=849
+Stored in SQLite
+Merkle batch committed 838-849
+Merkle root: 2915e9b57ffac169ce4eef6b24f9c704e79019a2bc0846aa7bb2092b9d302d02
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=850
+Stored in SQLite
+VALID packet counter=851
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=852
+Stored in SQLite
+VALID packet counter=853
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=855
+Stored in SQLite
+Fog listening on UDP 9100
+Recovered last_counter = 855
+VALID packet counter=856
+Stored in SQLite
+VALID packet counter=857
+Stored in SQLite
+[METRIC] Throughput: 0.37 packets/sec
+VALID packet counter=858
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=860
+Stored in SQLite
+VALID packet counter=861
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=862
+Stored in SQLite
+VALID packet counter=863
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=864
+Stored in SQLite
+Merkle batch committed 856-864
+Merkle root: b658a1e787af7d2c7764b13c75311f55cadbfb5f7415c915a12e1384da5a693b
+VALID packet counter=865
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=866
+Stored in SQLite
+VALID packet counter=867
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=868
+Stored in SQLite
+VALID packet counter=869
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=872
+Stored in SQLite
+VALID packet counter=873
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=874
+Stored in SQLite
+Merkle batch committed 865-874
+Merkle root: 4312ec60787f850beca53a901a1e595f310984befe41492a0822fd953663edb7
+VALID packet counter=875
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=878
+Stored in SQLite
+VALID packet counter=879
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=880
+Stored in SQLite
+VALID packet counter=881
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=883
+Stored in SQLite
+VALID packet counter=884
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=885
+Stored in SQLite
+Merkle batch committed 875-885
+Merkle root: 43fc13f0c18ac87648330b6082bc95f9c111890256145603e5279faaae9e12b5
+VALID packet counter=886
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=887
+Stored in SQLite
+VALID packet counter=888
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=889
+Stored in SQLite
+VALID packet counter=890
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=892
+Stored in SQLite
+VALID packet counter=893
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=894
+Stored in SQLite
+Merkle batch committed 886-894
+Merkle root: 7af62ada7f87091af9eff3f45ec5c1512256f2bd10ae74b8b5951c84010bb28e
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=896
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=899
+Stored in SQLite
+VALID packet counter=900
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=901
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=903
+Stored in SQLite
+VALID packet counter=904
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=905
+Stored in SQLite
+VALID packet counter=906
+Stored in SQLite
+Merkle batch committed 896-906
+Merkle root: ece70c84b23a6781b113124a0ad29e3b5d5b3ce64dacaa3d66f55b8f422add9f
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=907
+Stored in SQLite
+VALID packet counter=908
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=909
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=911
+Stored in SQLite
+VALID packet counter=912
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=913
+Stored in SQLite
+VALID packet counter=914
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=916
+Stored in SQLite
+Merkle batch committed 907-916
+Merkle root: 378e8d0157d1f0923ca9de84a08a76de42a302cd4841f092b78f5b0b9c54d3b9
+VALID packet counter=917
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=918
+Stored in SQLite
+VALID packet counter=919
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=920
+Stored in SQLite
+VALID packet counter=921
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=923
+Stored in SQLite
+VALID packet counter=924
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=925
+Stored in SQLite
+Merkle batch committed 917-925
+Merkle root: d701e07cac96cf6ea8336df04a24e1dcf5e61b095ff8310ee6ebecefe9f0363d
+VALID packet counter=926
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=927
+Stored in SQLite
+VALID packet counter=928
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=929
+Stored in SQLite
+VALID packet counter=930
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=931
+Stored in SQLite
+VALID packet counter=932
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=933
+Stored in SQLite
+Merkle batch committed 926-933
+Merkle root: facd7c09196300f8874b2c437e56065b05dd917c2763361336de3234c0a5dcaa
+VALID packet counter=934
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=935
+Stored in SQLite
+VALID packet counter=936
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=937
+Stored in SQLite
+VALID packet counter=938
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=939
+Stored in SQLite
+VALID packet counter=940
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=942
+Stored in SQLite
+Merkle batch committed 934-942
+Merkle root: 76b423b22537bf8f0e273463b68f6159639db0f0a763e15cab7d45d64e069f48
+VALID packet counter=943
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=944
+Stored in SQLite
+VALID packet counter=945
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=946
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=948
+Stored in SQLite
+VALID packet counter=949
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=950
+Stored in SQLite
+VALID packet counter=951
+Stored in SQLite
+Merkle batch committed 943-951
+Merkle root: 2ec38bcb6d392c517265898e60c91eb7da0a4b53540dfc6ea2b3a52d5583b61b
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=952
+Stored in SQLite
+VALID packet counter=953
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=954
+Stored in SQLite
+VALID packet counter=955
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=956
+Stored in SQLite
+VALID packet counter=957
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=958
+Stored in SQLite
+VALID packet counter=959
+Stored in SQLite
+Merkle batch committed 952-959
+Merkle root: ffb20012ecbce761f634de482f878828b8272ab6046818da87303bf65d246f4f
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=960
+Stored in SQLite
+VALID packet counter=961
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=962
+Stored in SQLite
+VALID packet counter=963
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=964
+Stored in SQLite
+VALID packet counter=965
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=966
+Stored in SQLite
+VALID packet counter=967
+Stored in SQLite
+Merkle batch committed 960-967
+Merkle root: 953e4dec7da75ed36e7c82cb1e76b601a419536c91ef75554c871803f86208cc
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=968
+Stored in SQLite
+VALID packet counter=969
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=970
+Stored in SQLite
+VALID packet counter=971
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=972
+Stored in SQLite
+VALID packet counter=973
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=974
+Stored in SQLite
+VALID packet counter=975
+Stored in SQLite
+Merkle batch committed 968-975
+Merkle root: c0d821d258423942c18cf95e716e6da619adc66a40930f0abd5645cad099cb21
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=976
+Stored in SQLite
+VALID packet counter=977
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=978
+Stored in SQLite
+VALID packet counter=979
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=980
+Stored in SQLite
+VALID packet counter=981
+Stored in SQLite
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=982
+Stored in SQLite
+VALID packet counter=983
+Stored in SQLite
+Merkle batch committed 976-983
+Merkle root: 05eae5da181bd984f081ee664dab562f7ee898f709dc5c88b03eaf009ae16836
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=984
+Stored in SQLite
+VALID packet counter=985
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=986
+Stored in SQLite
+VALID packet counter=987
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=989
+Stored in SQLite
+VALID packet counter=990
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=991
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=993
+Stored in SQLite
+Merkle batch committed 984-993
+Merkle root: 0185ff38d64e86372d1bed823bc9b2dffe28720ac385cf82419b17735cba82f1
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=995
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=997
+Stored in SQLite
+VALID packet counter=998
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=999
+Stored in SQLite
+VALID packet counter=1000
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1003
+Stored in SQLite
+VALID packet counter=1004
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1005
+Stored in SQLite
+Merkle batch committed 995-1005
+Merkle root: 6f5ad0ff247810261680788be9bbd7c33e2316bc2876a7bf92d0e8179f9de422
+VALID packet counter=1006
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1007
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1009
+Stored in SQLite
+VALID packet counter=1010
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1011
+Stored in SQLite
+VALID packet counter=1012
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1014
+Stored in SQLite
+VALID packet counter=1015
+Stored in SQLite
+Merkle batch committed 1006-1015
+Merkle root: 318311860ead29666b59a7aed9026a777ea6eabf918f65a0ff5b78cdffe01489
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1017
+Stored in SQLite
+VALID packet counter=1018
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=1019
+Stored in SQLite
+VALID packet counter=1020
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1021
+Stored in SQLite
+VALID packet counter=1022
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1024
+Stored in SQLite
+VALID packet counter=1025
+Stored in SQLite
+Merkle batch committed 1017-1025
+Merkle root: 234452b740b046a76cd73e415a2c4a0da9c0400e7cbe8cc4493b1a57287df163
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1026
+Stored in SQLite
+VALID packet counter=1027
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1030
+Stored in SQLite
+VALID packet counter=1031
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1032
+Stored in SQLite
+VALID packet counter=1033
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1034
+Stored in SQLite
+VALID packet counter=1035
+Stored in SQLite
+Merkle batch committed 1026-1035
+Merkle root: 8018175d19aa98a9eb1a775c306eb2021cd3c2c857aaf8a7e9d4e9b706deab1b
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1037
+Stored in SQLite
+VALID packet counter=1038
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1039
+Stored in SQLite
+VALID packet counter=1040
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1041
+Stored in SQLite
+VALID packet counter=1042
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1043
+Stored in SQLite
+VALID packet counter=1044
+Stored in SQLite
+Merkle batch committed 1037-1044
+Merkle root: ec63a5dc0ada388ae8aa423be482e35e01110395c303c6e69fb6356f10d19c13
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1045
+Stored in SQLite
+VALID packet counter=1046
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1047
+Stored in SQLite
+VALID packet counter=1048
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1049
+Stored in SQLite
+VALID packet counter=1050
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1051
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1053
+Stored in SQLite
+Merkle batch committed 1045-1053
+Merkle root: c29c3e338c838492bc11b107a64c0dc4fe70919ec1a3d44873ab469c2db3b103
+VALID packet counter=1054
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1055
+Stored in SQLite
+VALID packet counter=1056
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1058
+Stored in SQLite
+VALID packet counter=1059
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1060
+Stored in SQLite
+VALID packet counter=1061
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1062
+Stored in SQLite
+Merkle batch committed 1054-1062
+Merkle root: cf008811dccca795a096a4a179bedcfe0891fc53363c5b34bb44b23db0750e2e
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1064
+Stored in SQLite
+VALID packet counter=1065
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1066
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1068
+Stored in SQLite
+VALID packet counter=1069
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1070
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=1073
+Stored in SQLite
+VALID packet counter=1074
+Stored in SQLite
+Merkle batch committed 1064-1074
+Merkle root: 0a37920460a27c2023529c6a10cb0632f06e1ff0e33cf07fff284554b8b6d8f7
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1075
+Stored in SQLite
+VALID packet counter=1076
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1078
+Stored in SQLite
+VALID packet counter=1079
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1080
+Stored in SQLite
+VALID packet counter=1081
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1083
+Stored in SQLite
+VALID packet counter=1084
+Stored in SQLite
+Merkle batch committed 1075-1084
+Merkle root: 9206b0e77823fbae7671b6950ca0ea8baa2bda2b037bb533692fe3c5aa42543a
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=1085
+Stored in SQLite
+VALID packet counter=1086
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1087
+Stored in SQLite
+VALID packet counter=1088
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1089
+Stored in SQLite
+VALID packet counter=1090
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1091
+Stored in SQLite
+VALID packet counter=1092
+Stored in SQLite
+Merkle batch committed 1085-1092
+Merkle root: 7fcc88183397c683735d9c749724f62534e498876f954accc940a360ebdbfec6
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1093
+Stored in SQLite
+VALID packet counter=1094
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1096
+Stored in SQLite
+VALID packet counter=1097
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1098
+Stored in SQLite
+VALID packet counter=1099
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1101
+Stored in SQLite
+VALID packet counter=1102
+Stored in SQLite
+Merkle batch committed 1093-1102
+Merkle root: cb7fd646d141324d6430a84287ad9a7bf4ee895fa570300b97281b3885d602e5
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1103
+Stored in SQLite
+VALID packet counter=1104
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1106
+Stored in SQLite
+VALID packet counter=1107
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1108
+Stored in SQLite
+VALID packet counter=1109
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1111
+Stored in SQLite
+VALID packet counter=1112
+Stored in SQLite
+Merkle batch committed 1103-1112
+Merkle root: 8b4c02e5995c1e2b6fe3e706cbcc8e036965140f2af785f085fc5ad371590ada
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1113
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1115
+Stored in SQLite
+VALID packet counter=1116
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1117
+Stored in SQLite
+VALID packet counter=1118
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1120
+Stored in SQLite
+VALID packet counter=1121
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1123
+Stored in SQLite
+Merkle batch committed 1113-1123
+Merkle root: 812e0573cc709a14d35b70db8f9a8db6a5f9c838c6adc5e54808b8e9e3239ae0
+VALID packet counter=1124
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1125
+Stored in SQLite
+VALID packet counter=1126
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1127
+Stored in SQLite
+VALID packet counter=1128
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1129
+Stored in SQLite
+VALID packet counter=1130
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=1131
+Stored in SQLite
+Merkle batch committed 1124-1131
+Merkle root: ae02b99858b0a73992eb9c89bd002e9c5e828d1eb43def6f0b1cf79d21ff1b06
+VALID packet counter=1132
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1134
+Stored in SQLite
+VALID packet counter=1135
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1136
+Stored in SQLite
+VALID packet counter=1137
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1138
+Stored in SQLite
+VALID packet counter=1139
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1140
+Stored in SQLite
+Merkle batch committed 1132-1140
+Merkle root: 911ec81a0f35eae80e3739c0d4f4141dec2541d25ba239a6a2670a7f3f138a91
+VALID packet counter=1141
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1142
+Stored in SQLite
+VALID packet counter=1143
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1145
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1147
+Stored in SQLite
+VALID packet counter=1148
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1149
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=1152
+Stored in SQLite
+Merkle batch committed 1141-1152
+Merkle root: a89d4c5fa66c4ed407391a8ee8c1dcf338adc39f187859dc3a4ef44e0a068689
+VALID packet counter=1153
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1154
+Stored in SQLite
+VALID packet counter=1155
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1156
+Stored in SQLite
+VALID packet counter=1157
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1158
+Stored in SQLite
+VALID packet counter=1159
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1160
+Stored in SQLite
+Merkle batch committed 1153-1160
+Merkle root: cd13958aa4afa522abf8a3eefbc17d3743fbd182cada063234cb1867f6030735
+VALID packet counter=1161
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1162
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1164
+Stored in SQLite
+VALID packet counter=1165
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1166
+Stored in SQLite
+VALID packet counter=1167
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1168
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1170
+Stored in SQLite
+Merkle batch committed 1161-1170
+Merkle root: 9f50fb6f6cbd7b927d393a0180cee68bd8dcc3757807bf731fafd3fa8de23b74
+VALID packet counter=1171
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1172
+Stored in SQLite
+VALID packet counter=1173
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1174
+Stored in SQLite
+VALID packet counter=1175
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1176
+Stored in SQLite
+VALID packet counter=1177
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1178
+Stored in SQLite
+Merkle batch committed 1171-1178
+Merkle root: 7357ad612740e500c00ef0f8f80609135ca10befda19d1d9931c620d1919dc6d
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1180
+Stored in SQLite
+VALID packet counter=1181
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1183
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1185
+Stored in SQLite
+VALID packet counter=1186
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1187
+Stored in SQLite
+VALID packet counter=1188
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1189
+Stored in SQLite
+Merkle batch committed 1180-1189
+Merkle root: df23bb5ca570518edde37fae50c6e602293d59e5a835d41504a40181945d713e
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1191
+Stored in SQLite
+VALID packet counter=1192
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1193
+Stored in SQLite
+VALID packet counter=1194
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1195
+Stored in SQLite
+VALID packet counter=1196
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1197
+Stored in SQLite
+VALID packet counter=1198
+Stored in SQLite
+Merkle batch committed 1191-1198
+Merkle root: 4c8978477d8bffa9d29f9b1bf5d131eaf099407fd25512324df53e3df55d6a77
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1200
+Stored in SQLite
+VALID packet counter=1201
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1202
+Stored in SQLite
+VALID packet counter=1203
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1204
+Stored in SQLite
+VALID packet counter=1205
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1206
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1208
+Stored in SQLite
+Merkle batch committed 1200-1208
+Merkle root: 7a9a7f37618dacfef1aee268e22c438c989f2e197e8d8012642adf51b22beed6
+VALID packet counter=1209
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1211
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1213
+Stored in SQLite
+VALID packet counter=1214
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1215
+Stored in SQLite
+VALID packet counter=1216
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1217
+Stored in SQLite
+VALID packet counter=1218
+Stored in SQLite
+Merkle batch committed 1209-1218
+Merkle root: 8d87e44aa4274d010110ccec2921c7b087945aab5a8f9336fbd7a5c7c9b33b73
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1219
+Stored in SQLite
+VALID packet counter=1220
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1221
+Stored in SQLite
+VALID packet counter=1222
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1223
+Stored in SQLite
+VALID packet counter=1224
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1225
+Stored in SQLite
+VALID packet counter=1226
+Stored in SQLite
+Merkle batch committed 1219-1226
+Merkle root: 2236c49385085f7e0c63ee97fa488511fe6bb0f92ed3a7514e6fbd3ef6e3e836
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1227
+Stored in SQLite
+VALID packet counter=1228
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1229
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1231
+Stored in SQLite
+VALID packet counter=1232
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1233
+Stored in SQLite
+VALID packet counter=1234
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1235
+Stored in SQLite
+Merkle batch committed 1227-1235
+Merkle root: f04e8973e8a6c0e81bb21ba87df8f6cb122408c080ae1ed5903de0576a49b39d
+VALID packet counter=1236
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1239
+Stored in SQLite
+VALID packet counter=1240
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1241
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1243
+Stored in SQLite
+VALID packet counter=1244
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1245
+Stored in SQLite
+VALID packet counter=1246
+Stored in SQLite
+Merkle batch committed 1236-1246
+Merkle root: e246f15832309499de4209e1b72da93727dd6e4c5f2950c4afb85ad2ae050598
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1247
+Stored in SQLite
+VALID packet counter=1248
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1249
+Stored in SQLite
+VALID packet counter=1250
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1251
+Stored in SQLite
+VALID packet counter=1252
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1253
+Stored in SQLite
+VALID packet counter=1254
+Stored in SQLite
+Merkle batch committed 1247-1254
+Merkle root: 2c00fb02df9c8224516cebdc3a4460e6235e14adc03a614b124b159f05ed4653
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1255
+Stored in SQLite
+[METRIC] Throughput: 0.11 packets/sec
+VALID packet counter=1258
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1260
+Stored in SQLite
+VALID packet counter=1261
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1262
+Stored in SQLite
+VALID packet counter=1263
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1264
+Stored in SQLite
+VALID packet counter=1265
+Stored in SQLite
+Merkle batch committed 1255-1265
+Merkle root: 2d40d6fd8ea8f420fa71e895c99ae348d5666553e4d9f7af77d990b7e0dd5d2e
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1268
+Stored in SQLite
+VALID packet counter=1269
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1270
+Stored in SQLite
+VALID packet counter=1271
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1272
+Stored in SQLite
+VALID packet counter=1273
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1274
+Stored in SQLite
+VALID packet counter=1275
+Stored in SQLite
+Merkle batch committed 1268-1275
+Merkle root: 3912268f28b31db8bc1afd1d77a8a4e843067ba0baa69e93970fd54007189156
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=1276
+Stored in SQLite
+VALID packet counter=1277
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=1278
+Stored in SQLite
+VALID packet counter=1279
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1280
+Stored in SQLite
+VALID packet counter=1281
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1283
+Stored in SQLite
+VALID packet counter=1284
+Stored in SQLite
+Merkle batch committed 1276-1284
+Merkle root: 7291ca39e06a19264e2f73972f9d01a6f30d122e1a97269675853c0c61b4caa1
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1287
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1289
+Stored in SQLite
+VALID packet counter=1290
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1291
+Stored in SQLite
+[METRIC] Throughput: 0.18 packets/sec
+VALID packet counter=1293
+Stored in SQLite
+VALID packet counter=1294
+Stored in SQLite
+[METRIC] Throughput: 0.31 packets/sec
+VALID packet counter=1295
+Stored in SQLite
+VALID packet counter=1296
+Stored in SQLite
+Merkle batch committed 1287-1296
+Merkle root: 477a537bf124db77f46a5474f892670e85bed5d4c70ab2de587a8d3557bfdc59
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1297
+Stored in SQLite
+VALID packet counter=1298
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1301
+Stored in SQLite
+VALID packet counter=1302
+Stored in SQLite
+[METRIC] Throughput: 0.23 packets/sec
+VALID packet counter=1304
+Stored in SQLite
+VALID packet counter=1305
+Stored in SQLite
+[METRIC] Throughput: 0.21 packets/sec
+VALID packet counter=1307
+Stored in SQLite
+VALID packet counter=1308
+Stored in SQLite
+Merkle batch committed 1297-1308
+Merkle root: 6f0a8e2b425acfd7ebe7751ee5afde56c735cfd4f36aad9b658ce26dc91af190
+[METRIC] Throughput: 0.36 packets/sec
+VALID packet counter=1309
+Stored in SQLite
+[METRIC] Throughput: 0.17 packets/sec
+VALID packet counter=1311
+Stored in SQLite
+VALID packet counter=1312
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1313
+Stored in SQLite
+VALID packet counter=1314
+Stored in SQLite
+[METRIC] Throughput: 0.13 packets/sec
+VALID packet counter=1318
+Stored in SQLite
+VALID packet counter=1319
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1320
+Stored in SQLite
+Merkle batch committed 1309-1320
+Merkle root: 749b337e52cc01e3e93feef0e293c0d290a436bd74eabfdabe38cb0948d83920
+VALID packet counter=1321
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1322
+Stored in SQLite
+VALID packet counter=1323
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1325
+Stored in SQLite
+VALID packet counter=1326
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1327
+Stored in SQLite
+VALID packet counter=1328
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1329
+Stored in SQLite
+Merkle batch committed 1321-1329
+Merkle root: 5a6d6ac71ba4a9dadf75efe092394e7fbccebf6b5fb1183d3a259a8d6b3ec36e
+VALID packet counter=1330
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1332
+Stored in SQLite
+VALID packet counter=1333
+Stored in SQLite
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1334
+Stored in SQLite
+VALID packet counter=1335
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1336
+Stored in SQLite
+VALID packet counter=1337
+Stored in SQLite
+[METRIC] Throughput: 0.32 packets/sec
+VALID packet counter=1338
+Stored in SQLite
+Merkle batch committed 1330-1338
+Merkle root: cb9f199d7edb17e38068fad199e3e3f0d7c577658313d9064585d7337d7ef362
+VALID packet counter=1339
+Stored in SQLite
+[METRIC] Throughput: 0.35 packets/sec
+VALID packet counter=1340
+Stored in SQLite
+VALID packet counter=1341
+Stored in SQLite
+[METRIC] Throughput: 0.22 packets/sec
+VALID packet counter=1343
+Stored in SQLite
+[METRIC] Throughput: 0.16 packets/sec
+VALID packet counter=1345
+Stored in SQLite
+VALID packet counter=1346
+Stored in SQLite
+[METRIC] Throughput: 0.34 packets/sec
+VALID packet counter=1347
+Stored in SQLite
+VALID packet counter=1348
+Stored in SQLite
+Merkle batch committed 1339-1348
+Merkle root: 9cf8984ab3197b9ff8a2b564d72d5a7d377727a9d6e591e513308950e1a9155d
+[METRIC] Throughput: 0.33 packets/sec
+VALID packet counter=1349
+Stored in SQLite
+VALID packet counter=1350
+Stored in SQLite

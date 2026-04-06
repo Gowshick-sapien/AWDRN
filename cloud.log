@@ -1,0 +1,3188 @@
+Cloud passively received via /ingest: counter=0
+INFO:     172.19.0.3:42630 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1
+INFO:     172.19.0.3:42634 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=2
+INFO:     172.19.0.3:42636 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=4
+INFO:     172.19.0.3:52024 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=5
+INFO:     172.19.0.3:52040 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=6
+INFO:     172.19.0.3:52046 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=7
+INFO:     172.19.0.3:54300 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=10
+INFO:     172.19.0.3:38944 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 45.78 ms
+
+Cloud received anchor request for Batch 1 (counters 0-10)
+[METRIC] Verification Time: 0.09 ms
+[METRIC] Verification Time: 0.02 ms
+Successfully cryptographically verified 2 proofs for root: 4896a8b601278db4b9e44de4be5b605ea2c0d0208cc10c444e72579926a7645e
+INFO:     172.19.0.3:38956 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=11
+INFO:     172.19.0.3:38966 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=13
+INFO:     172.19.0.3:33514 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=14
+INFO:     172.19.0.3:33528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=15
+INFO:     172.19.0.3:33538 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=16
+INFO:     172.19.0.3:33544 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=17
+INFO:     172.19.0.3:57950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=18
+INFO:     172.19.0.3:57960 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=19
+INFO:     172.19.0.3:57974 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 15.71 ms
+
+Cloud received anchor request for Batch 2 (counters 11-19)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: c75d79638b8f05b1320e24409fac867d583dcffd31b62cad36f3745124cfec37
+INFO:     172.19.0.3:57980 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=20
+INFO:     172.19.0.3:39574 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=24
+INFO:     172.19.0.3:44010 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=25
+INFO:     172.19.0.3:44022 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=27
+INFO:     172.19.0.3:37994 - "POST /ingest HTTP/1.1" 200 OK
+User manually triggered tampering for the next incoming anchor request!
+INFO:     172.19.0.1:53692 - "POST /tamper HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=28
+INFO:     172.19.0.3:38000 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=29
+INFO:     172.19.0.3:38014 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=30
+INFO:     172.19.0.3:46930 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=31
+INFO:     172.19.0.3:46938 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 19.28 ms
+
+Cloud received anchor request for Batch 3 (counters 20-31)
+Simulating adversarial proof corruption!
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Tampering Detected Count: 1
+[ANCHOR VERIFY FAIL] Batch 3, Index 6
+INFO:     172.19.0.3:46940 - "POST /anchor HTTP/1.1" 200 OK
+
+[RECONCILE RECEIVED] Batch 3, Index 6
+[RECONCILE SUCCESS] Transient error resolved
+INFO:     172.19.0.3:46946 - "POST /reconcile_request HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=33
+INFO:     172.19.0.3:54376 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=34
+INFO:     172.19.0.3:54386 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=35
+INFO:     172.19.0.3:54390 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=36
+INFO:     172.19.0.3:54404 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=37
+INFO:     172.19.0.3:41436 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=38
+INFO:     172.19.0.3:41446 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=40
+INFO:     172.19.0.3:45334 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=41
+INFO:     172.19.0.3:45338 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.23 ms
+
+Cloud received anchor request for Batch 4 (counters 33-41)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: a66f9fc4345f59984e79767f5f0c448b98d497f109b00060cf9c3bf00498b68f
+INFO:     172.19.0.3:45350 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=43
+INFO:     172.19.0.3:57412 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=44
+INFO:     172.19.0.3:57422 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=45
+INFO:     172.19.0.3:57436 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=46
+INFO:     172.19.0.3:57452 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=47
+INFO:     172.19.0.3:36492 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=48
+INFO:     172.19.0.3:36502 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=50
+INFO:     172.19.0.3:33520 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=51
+INFO:     172.19.0.3:33532 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 13.61 ms
+
+Cloud received anchor request for Batch 5 (counters 43-51)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 7d0059cd4a22cae6937d8e7a95bc22d77366d0e26ec09a1f08c428d681752551
+INFO:     172.19.0.3:33548 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=53
+INFO:     172.19.0.3:43636 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=54
+INFO:     172.19.0.3:43642 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=55
+INFO:     172.19.0.3:43644 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=57
+INFO:     172.19.0.3:34646 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=58
+INFO:     172.19.0.3:34654 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=60
+INFO:     172.19.0.3:33880 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=61
+INFO:     172.19.0.3:33888 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=62
+INFO:     172.19.0.3:33898 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.70 ms
+
+Cloud received anchor request for Batch 6 (counters 53-62)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 09af0537afd65c7914c27078cc3a11afc9ffc9d132d39c46367dae8e3c8088b4
+INFO:     172.19.0.3:33900 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=63
+INFO:     172.19.0.3:40912 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=64
+INFO:     172.19.0.3:40924 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=65
+INFO:     172.19.0.3:40934 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=66
+INFO:     172.19.0.3:40942 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=68
+INFO:     172.19.0.3:51620 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=71
+INFO:     172.19.0.3:51110 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=72
+INFO:     172.19.0.3:51120 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=75
+INFO:     172.19.0.3:39684 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.86 ms
+
+Cloud received anchor request for Batch 7 (counters 63-75)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 8a25b36705f84dacb878a2ee40b441ac7619f2760f5302484cd3d35f326f4635
+INFO:     172.19.0.3:39700 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=76
+INFO:     172.19.0.3:39706 - "POST /ingest HTTP/1.1" 200 OK
+User manually triggered tampering for the next incoming anchor request!
+INFO:     172.19.0.1:39548 - "POST /tamper HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=77
+INFO:     172.19.0.3:42368 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=78
+INFO:     172.19.0.3:42380 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=79
+INFO:     172.19.0.3:42394 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=80
+INFO:     172.19.0.3:59452 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=81
+INFO:     172.19.0.3:59466 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=82
+INFO:     172.19.0.3:59472 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=83
+INFO:     172.19.0.3:49956 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 29.87 ms
+
+Cloud received anchor request for Batch 8 (counters 76-83)
+Simulating adversarial proof corruption!
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Tampering Detected Count: 2
+[ANCHOR VERIFY FAIL] Batch 8, Index 7
+INFO:     172.19.0.3:49972 - "POST /anchor HTTP/1.1" 200 OK
+
+[RECONCILE RECEIVED] Batch 8, Index 7
+[RECONCILE SUCCESS] Transient error resolved
+INFO:     172.19.0.3:49984 - "POST /reconcile_request HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=85
+INFO:     172.19.0.3:49990 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=86
+INFO:     172.19.0.3:49998 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=87
+INFO:     172.19.0.3:52684 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=89
+INFO:     172.19.0.3:52688 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=91
+INFO:     172.19.0.3:44626 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=92
+INFO:     172.19.0.3:44634 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=93
+INFO:     172.19.0.3:56110 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=94
+INFO:     172.19.0.3:56118 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 27.40 ms
+
+Cloud received anchor request for Batch 9 (counters 85-94)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 4609311f5e705d414544466a12286280e1c5624951ffa0e2985bd89a4d601f57
+INFO:     172.19.0.3:56130 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=95
+INFO:     172.19.0.3:56138 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=96
+INFO:     172.19.0.3:56140 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=98
+INFO:     172.19.0.3:42792 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=99
+INFO:     172.19.0.3:42804 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=102
+INFO:     172.19.0.3:60888 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=103
+INFO:     172.19.0.3:46474 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=104
+INFO:     172.19.0.3:46478 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=106
+INFO:     172.19.0.3:46492 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 15.67 ms
+
+Cloud received anchor request for Batch 10 (counters 95-106)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 043f771bbeccbda303f8edd54f298c974e848b79ef61590cd7125e1e3659db46
+INFO:     172.19.0.3:46498 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=107
+INFO:     172.19.0.3:60524 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=110
+INFO:     172.19.0.3:52292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=111
+INFO:     172.19.0.3:52298 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=112
+INFO:     172.19.0.3:52306 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=113
+INFO:     172.19.0.3:44536 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=114
+INFO:     172.19.0.3:44544 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=115
+INFO:     172.19.0.3:44552 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=117
+INFO:     172.19.0.3:48000 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.60 ms
+
+Cloud received anchor request for Batch 11 (counters 107-117)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 5196cd90532266c53de406de33d4d31dce7c08406bd43b8e0183f3e7f15a5437
+INFO:     172.19.0.3:48004 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=118
+INFO:     172.19.0.3:48018 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=121
+INFO:     172.19.0.3:46516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=122
+INFO:     172.19.0.3:46528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=123
+INFO:     172.19.0.3:37644 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=124
+INFO:     172.19.0.3:37650 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=126
+INFO:     172.19.0.3:37658 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=127
+INFO:     172.19.0.3:50480 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=128
+INFO:     172.19.0.3:50488 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.31 ms
+
+Cloud received anchor request for Batch 12 (counters 118-128)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: ae5ddda5702a3a5be0730e3b11a3330cf655e19a054e124e1509c06ab6d46ce5
+INFO:     172.19.0.3:50500 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=129
+INFO:     172.19.0.3:50508 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=130
+INFO:     172.19.0.3:57802 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=131
+INFO:     172.19.0.3:57804 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=132
+INFO:     172.19.0.3:57818 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=133
+INFO:     172.19.0.3:34494 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=134
+INFO:     172.19.0.3:34508 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=136
+INFO:     172.19.0.3:34520 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=137
+INFO:     172.19.0.3:39468 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.52 ms
+
+Cloud received anchor request for Batch 13 (counters 129-137)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: ce84e22e5e98f2a80e6abe0ce04e7fb1f0f01d5dcb4f5bd9fceacc8b307aaf98
+INFO:     172.19.0.3:39480 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=138
+INFO:     172.19.0.3:39492 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=139
+INFO:     172.19.0.3:39500 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=140
+INFO:     172.19.0.3:37542 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=141
+INFO:     172.19.0.3:37554 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=142
+INFO:     172.19.0.3:37570 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=143
+INFO:     172.19.0.3:33766 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=144
+INFO:     172.19.0.3:33772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=145
+INFO:     172.19.0.3:33780 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 22.88 ms
+
+Cloud received anchor request for Batch 14 (counters 138-145)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: d92b6fff6cce0877e4a3f639f06ad05377fa3875e3e11ae858cf014b7d4f3271
+INFO:     172.19.0.3:33784 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=146
+INFO:     172.19.0.3:33790 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=147
+INFO:     172.19.0.3:39450 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=149
+INFO:     172.19.0.3:39456 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=151
+INFO:     172.19.0.3:48960 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=153
+INFO:     172.19.0.3:48192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=154
+INFO:     172.19.0.3:48204 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=155
+INFO:     172.19.0.3:48208 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=156
+INFO:     172.19.0.3:48216 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 19.01 ms
+
+Cloud received anchor request for Batch 15 (counters 146-156)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ab144e45382f78a1628af33d14c5802492b75c9526122d4e3ffcbaccf4b3b135
+INFO:     172.19.0.3:48226 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=157
+INFO:     172.19.0.3:58040 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=158
+INFO:     172.19.0.3:58044 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=159
+INFO:     172.19.0.3:58060 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=160
+INFO:     172.19.0.3:35958 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=162
+INFO:     172.19.0.3:35970 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=163
+INFO:     172.19.0.3:48868 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=164
+INFO:     172.19.0.3:48876 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=165
+INFO:     172.19.0.3:48890 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 38.27 ms
+
+Cloud received anchor request for Batch 16 (counters 157-165)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ad78b2b593fa0a2877a9e9c86c06d6913161bae3ac63e0b38d47a27710ac275e
+INFO:     172.19.0.3:48906 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=167
+INFO:     172.19.0.3:44862 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=170
+INFO:     172.19.0.3:41184 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=173
+INFO:     172.19.0.3:33318 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=174
+INFO:     172.19.0.3:33328 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=175
+INFO:     172.19.0.3:33336 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=176
+INFO:     172.19.0.3:33342 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=177
+INFO:     172.19.0.3:39136 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=179
+INFO:     172.19.0.3:39138 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 27.53 ms
+
+Cloud received anchor request for Batch 17 (counters 167-179)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9fff8f7ae04c4fe9675dbcc8b6f8042515173e11f3b9c92433635b9bd39f5509
+INFO:     172.19.0.3:39142 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=180
+INFO:     172.19.0.3:51238 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=181
+INFO:     172.19.0.3:51240 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=182
+INFO:     172.19.0.3:51244 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=183
+INFO:     172.19.0.3:52130 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=184
+INFO:     172.19.0.3:52140 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=185
+INFO:     172.19.0.3:52150 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=186
+INFO:     172.19.0.3:40980 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=187
+INFO:     172.19.0.3:40986 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 8.05 ms
+
+Cloud received anchor request for Batch 18 (counters 180-187)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 4a499e98fc175ffcebe2128fdc576a8aa7f97a938512bcd25b81718afbc889f0
+INFO:     172.19.0.3:40988 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=188
+INFO:     172.19.0.3:40998 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=189
+INFO:     172.19.0.3:41012 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=190
+INFO:     172.19.0.3:59788 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=191
+INFO:     172.19.0.3:59792 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=193
+INFO:     172.19.0.3:54140 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=194
+INFO:     172.19.0.3:54142 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=195
+INFO:     172.19.0.3:54146 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=196
+INFO:     172.19.0.3:54158 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 35.12 ms
+
+Cloud received anchor request for Batch 19 (counters 188-196)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.06 ms
+Successfully cryptographically verified 2 proofs for root: a2993f78708961e774ed8db8429bf3a89685294a2d3237557df51db17342e8b5
+INFO:     172.19.0.3:54160 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=197
+INFO:     172.19.0.3:53474 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=198
+INFO:     172.19.0.3:53490 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=200
+INFO:     172.19.0.3:58320 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=201
+INFO:     172.19.0.3:58326 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=202
+INFO:     172.19.0.3:58328 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=203
+INFO:     172.19.0.3:39796 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=204
+INFO:     172.19.0.3:39808 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=205
+INFO:     172.19.0.3:39824 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.06 ms
+
+Cloud received anchor request for Batch 20 (counters 197-205)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 744c672945980927fb7a4f88881b82be2280cb8e4b0ba19eaf7e5ef07c0cab06
+INFO:     172.19.0.3:39840 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=206
+INFO:     172.19.0.3:39852 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=208
+INFO:     172.19.0.3:54578 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=209
+INFO:     172.19.0.3:54584 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=210
+INFO:     172.19.0.3:45480 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=211
+INFO:     172.19.0.3:45496 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=212
+INFO:     172.19.0.3:45510 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=213
+INFO:     172.19.0.3:42368 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=215
+INFO:     172.19.0.3:42384 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.51 ms
+
+Cloud received anchor request for Batch 21 (counters 206-215)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: d32c28c4e5aeb745a5bd44142179a8c9c5ebfb1ba23e08b36d86c6ee99ea4102
+INFO:     172.19.0.3:42388 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=216
+INFO:     172.19.0.3:42390 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=217
+INFO:     172.19.0.3:42332 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=218
+INFO:     172.19.0.3:42346 - "POST /ingest HTTP/1.1" 200 OK
+User manually triggered tampering for the next incoming anchor request!
+INFO:     172.19.0.1:50008 - "POST /tamper HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=219
+INFO:     172.19.0.3:42360 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=220
+INFO:     172.19.0.3:35722 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=221
+INFO:     172.19.0.3:35738 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=224
+INFO:     172.19.0.3:42502 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=225
+INFO:     172.19.0.3:42516 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 41.89 ms
+
+Cloud received anchor request for Batch 22 (counters 216-225)
+Simulating adversarial proof corruption!
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Tampering Detected Count: 3
+[ANCHOR VERIFY FAIL] Batch 22, Index 2
+INFO:     172.19.0.3:42526 - "POST /anchor HTTP/1.1" 200 OK
+
+[RECONCILE RECEIVED] Batch 22, Index 2
+[RECONCILE SUCCESS] Transient error resolved
+INFO:     172.19.0.3:42542 - "POST /reconcile_request HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=227
+INFO:     172.19.0.3:52116 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=228
+INFO:     172.19.0.3:52120 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=229
+INFO:     172.19.0.3:52124 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=230
+INFO:     172.19.0.3:41336 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=231
+INFO:     172.19.0.3:41352 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=232
+INFO:     172.19.0.3:41354 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=233
+INFO:     172.19.0.3:49568 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=234
+INFO:     172.19.0.3:49578 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.88 ms
+
+Cloud received anchor request for Batch 23 (counters 227-234)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: b526c751763cf0fa217964601749b7f9a7bed07710a30d0ae186f12fe87e88a8
+INFO:     172.19.0.3:49590 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=235
+INFO:     172.19.0.3:49598 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=236
+INFO:     172.19.0.3:49610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=238
+INFO:     172.19.0.3:57854 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=239
+INFO:     172.19.0.3:57870 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=240
+INFO:     172.19.0.3:39994 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=242
+INFO:     172.19.0.3:39998 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=243
+INFO:     172.19.0.3:49634 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=244
+INFO:     172.19.0.3:49644 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 11.92 ms
+
+Cloud received anchor request for Batch 24 (counters 235-244)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9e4758e4bd5a8cfb24580c4d5fd6270bfa91fa21d4f97a525007a8f98343224f
+INFO:     172.19.0.3:49648 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=245
+INFO:     172.19.0.3:49650 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=246
+INFO:     172.19.0.3:49666 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=248
+INFO:     172.19.0.3:50952 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=249
+INFO:     172.19.0.3:50964 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=251
+INFO:     172.19.0.3:50926 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=252
+INFO:     172.19.0.3:50932 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=253
+INFO:     172.19.0.3:49770 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=254
+INFO:     172.19.0.3:49772 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 41.06 ms
+
+Cloud received anchor request for Batch 25 (counters 245-254)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 1f698d569ef7013d1cf053343f8b7e2e5d390f697b73f6fc9ca7e7531308944a
+INFO:     172.19.0.3:49784 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=255
+INFO:     172.19.0.3:49798 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=256
+INFO:     172.19.0.3:49810 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=258
+INFO:     172.19.0.3:60400 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=259
+INFO:     172.19.0.3:60410 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=260
+INFO:     172.19.0.3:52872 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=261
+INFO:     172.19.0.3:52876 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=262
+INFO:     172.19.0.3:52880 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=263
+INFO:     172.19.0.3:55790 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.40 ms
+
+Cloud received anchor request for Batch 26 (counters 255-263)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 191526380e2ecefb5acc052e3098ffd09d525a4d6cb5dc02d461794263b98a3f
+INFO:     172.19.0.3:55796 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=264
+INFO:     172.19.0.3:55798 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=265
+INFO:     172.19.0.3:55808 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=266
+INFO:     172.19.0.3:55816 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=267
+INFO:     172.19.0.3:58132 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=269
+INFO:     172.19.0.3:58144 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=270
+INFO:     172.19.0.3:35676 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=271
+INFO:     172.19.0.3:35684 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=272
+INFO:     172.19.0.3:35692 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 26.68 ms
+
+Cloud received anchor request for Batch 27 (counters 264-272)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 8a5b6867dfa678fe3d5e233779e747e4b2faa95a40524a5fc4bed3fb99108664
+INFO:     172.19.0.3:35698 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=274
+INFO:     172.19.0.3:39730 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=276
+INFO:     172.19.0.3:39742 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=277
+INFO:     172.19.0.3:32956 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=278
+INFO:     172.19.0.3:32970 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=279
+INFO:     172.19.0.3:32978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=280
+INFO:     172.19.0.3:55698 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=282
+INFO:     172.19.0.3:55710 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=283
+INFO:     172.19.0.3:60796 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 11.50 ms
+
+Cloud received anchor request for Batch 28 (counters 274-283)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: eef31a8f1cb88e0b9dca7cf3ff0c35f1dc3d2afd49297c25898339c2f51c3b5c
+INFO:     172.19.0.3:60810 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=285
+INFO:     172.19.0.3:60814 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=286
+INFO:     172.19.0.3:60822 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=289
+INFO:     172.19.0.3:34778 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=290
+INFO:     172.19.0.3:54596 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=291
+INFO:     172.19.0.3:54600 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=292
+INFO:     172.19.0.3:54616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=294
+INFO:     172.19.0.3:49344 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=295
+INFO:     172.19.0.3:49360 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 11.92 ms
+
+Cloud received anchor request for Batch 29 (counters 285-295)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 077d062abc3e9e2d9bd3856517fc93ff8a1c21904db859a6e7c23fc23c0f95ba
+INFO:     172.19.0.3:49374 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=297
+INFO:     172.19.0.3:55414 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=298
+INFO:     172.19.0.3:55420 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=299
+INFO:     172.19.0.3:55428 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=300
+INFO:     172.19.0.3:60298 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=302
+INFO:     172.19.0.3:60308 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=304
+INFO:     172.19.0.3:48610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=305
+INFO:     172.19.0.3:48622 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=307
+INFO:     172.19.0.3:60490 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 24.14 ms
+
+Cloud received anchor request for Batch 30 (counters 297-307)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 3ff8c3c890c000d344552911ea2f31de5150ae262d1b07464fabfbd2db84e9e9
+INFO:     172.19.0.3:60496 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=308
+INFO:     172.19.0.3:60498 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=309
+INFO:     172.19.0.3:60510 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=310
+INFO:     172.19.0.3:51516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=311
+INFO:     172.19.0.3:51522 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=312
+INFO:     172.19.0.3:51530 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=313
+INFO:     172.19.0.3:53964 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=314
+INFO:     172.19.0.3:53978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=316
+INFO:     172.19.0.3:53992 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.26 ms
+
+Cloud received anchor request for Batch 31 (counters 308-316)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 36529ad67a62da5d85c467d2fd5cafc50bbdbf7a882ec3c8e3b7cc4773c73c0f
+INFO:     172.19.0.3:53996 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=317
+INFO:     172.19.0.3:51830 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=318
+INFO:     172.19.0.3:51842 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=320
+INFO:     172.19.0.3:35272 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=321
+INFO:     172.19.0.3:35286 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=322
+INFO:     172.19.0.3:35292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=324
+INFO:     172.19.0.3:50674 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=325
+INFO:     172.19.0.3:50688 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=326
+INFO:     172.19.0.3:50694 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.49 ms
+
+Cloud received anchor request for Batch 32 (counters 317-326)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 5bf7c1873874a4dd23b5902eafdb12c8a648b7c5b8d1b5a7a6078ef930827edc
+INFO:     172.19.0.3:50704 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=327
+INFO:     172.19.0.3:33868 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=328
+INFO:     172.19.0.3:33876 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=329
+INFO:     172.19.0.3:33878 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=330
+INFO:     172.19.0.3:58808 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=331
+INFO:     172.19.0.3:58812 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=332
+INFO:     172.19.0.3:58824 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=333
+INFO:     172.19.0.3:56600 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=334
+INFO:     172.19.0.3:56608 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.60 ms
+
+Cloud received anchor request for Batch 33 (counters 327-334)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 72d7125c4512643c1ab376b9c0ff2eb15395e01d7ccd96ab6e8a4acbf322c233
+INFO:     172.19.0.3:56624 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=335
+INFO:     172.19.0.3:56640 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=336
+INFO:     172.19.0.3:45440 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=339
+INFO:     172.19.0.3:45446 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=340
+INFO:     172.19.0.3:45754 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=341
+INFO:     172.19.0.3:45770 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=342
+INFO:     172.19.0.3:45778 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=344
+INFO:     172.19.0.3:36226 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=345
+INFO:     172.19.0.3:36236 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.07 ms
+
+Cloud received anchor request for Batch 34 (counters 335-345)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: af28153013267ec083ac223bddeda527f851b589b6a0674a3da39f6767d6af1e
+INFO:     172.19.0.3:36244 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=346
+INFO:     172.19.0.3:46528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=347
+INFO:     172.19.0.3:46538 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=348
+INFO:     172.19.0.3:46540 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=349
+INFO:     172.19.0.3:46548 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=350
+INFO:     172.19.0.3:60380 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=351
+INFO:     172.19.0.3:60388 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=352
+INFO:     172.19.0.3:60392 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=353
+INFO:     172.19.0.3:55568 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.66 ms
+
+Cloud received anchor request for Batch 35 (counters 346-353)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 28c5c96873658ed3f5ca4042547751f5ca873ab6f57c80e6ba752fcfc1a00c99
+INFO:     172.19.0.3:55582 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=354
+INFO:     172.19.0.3:55590 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=355
+INFO:     172.19.0.3:55600 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=356
+INFO:     172.19.0.3:55612 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=357
+INFO:     172.19.0.3:53164 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=358
+INFO:     172.19.0.3:53174 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=359
+INFO:     172.19.0.3:53184 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=360
+INFO:     172.19.0.3:46268 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=362
+INFO:     172.19.0.3:46272 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 17.73 ms
+
+Cloud received anchor request for Batch 36 (counters 354-362)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 16d3bde2748abc142a646b93cadc19a41bd5f6961ebdfa4ca2dd6b4efd07cd31
+INFO:     172.19.0.3:46278 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=363
+INFO:     172.19.0.3:39442 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=365
+INFO:     172.19.0.3:39456 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=366
+INFO:     172.19.0.3:55286 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=367
+INFO:     172.19.0.3:55302 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=368
+INFO:     172.19.0.3:55310 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=369
+INFO:     172.19.0.3:55316 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=370
+INFO:     172.19.0.3:51288 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=371
+INFO:     172.19.0.3:51296 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 15.92 ms
+
+Cloud received anchor request for Batch 37 (counters 363-371)
+[METRIC] Verification Time: 0.07 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: d3ae382e50d91dd639e59d4d729cac2d6f4fae56e2d588ec94483569615d7145
+INFO:     172.19.0.3:51302 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=372
+INFO:     172.19.0.3:51308 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=373
+INFO:     172.19.0.3:57786 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=374
+INFO:     172.19.0.3:57794 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=375
+INFO:     172.19.0.3:57798 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=376
+INFO:     172.19.0.3:44760 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=377
+INFO:     172.19.0.3:44772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=378
+INFO:     172.19.0.3:44780 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=379
+INFO:     172.19.0.3:44788 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.32 ms
+
+Cloud received anchor request for Batch 38 (counters 372-379)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 6d4e074b4d8eac3df1362199de2082bfe1ea414b3c484940f7fe848a2a992672
+INFO:     172.19.0.3:44792 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=381
+INFO:     172.19.0.3:52610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=382
+INFO:     172.19.0.3:52624 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=383
+INFO:     172.19.0.3:59860 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=384
+INFO:     172.19.0.3:59868 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=385
+INFO:     172.19.0.3:59884 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=386
+INFO:     172.19.0.3:59886 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=388
+INFO:     172.19.0.3:44478 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=389
+INFO:     172.19.0.3:44494 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 24.51 ms
+
+Cloud received anchor request for Batch 39 (counters 381-389)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 3741cc2c2809f3b605d5e0a582d125a41a833a35c0e420cdadd84a6c7d141958
+INFO:     172.19.0.3:44496 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=390
+INFO:     172.19.0.3:43480 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=391
+INFO:     172.19.0.3:43490 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=392
+INFO:     172.19.0.3:43506 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=393
+INFO:     172.19.0.3:49176 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=394
+INFO:     172.19.0.3:49186 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=395
+INFO:     172.19.0.3:49188 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=397
+INFO:     172.19.0.3:47608 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=398
+INFO:     172.19.0.3:47624 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.90 ms
+
+Cloud received anchor request for Batch 40 (counters 390-398)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: a691e38ed42cf0c76a038dc6adcf520ed0225565751bd68b63a1a285e1c761d8
+INFO:     172.19.0.3:47630 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=399
+INFO:     172.19.0.3:47646 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=400
+INFO:     172.19.0.3:46948 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=401
+INFO:     172.19.0.3:46950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=402
+INFO:     172.19.0.3:46958 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=403
+INFO:     172.19.0.3:38006 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=404
+INFO:     172.19.0.3:38012 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=405
+INFO:     172.19.0.3:38026 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=406
+INFO:     172.19.0.3:46720 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.10 ms
+
+Cloud received anchor request for Batch 41 (counters 399-406)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 00eee617090b4c6cf749d7bdbb133eaeab022987b169aca79a48f052b66889ac
+INFO:     172.19.0.3:46728 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=407
+INFO:     172.19.0.3:46738 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=408
+INFO:     172.19.0.3:46750 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=409
+INFO:     172.19.0.3:46756 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=410
+INFO:     172.19.0.3:41782 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=412
+INFO:     172.19.0.3:41794 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=413
+INFO:     172.19.0.3:47684 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=414
+INFO:     172.19.0.3:47694 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=415
+INFO:     172.19.0.3:47702 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 10.66 ms
+
+Cloud received anchor request for Batch 42 (counters 407-415)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: a449ff1ff08726e65a79c933821023dd9fd43731fb2df70b109f3054cb3b0b57
+INFO:     172.19.0.3:47718 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=416
+INFO:     172.19.0.3:47724 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=418
+INFO:     172.19.0.3:36130 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=419
+INFO:     172.19.0.3:36144 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=421
+INFO:     172.19.0.3:35130 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=422
+INFO:     172.19.0.3:35132 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=423
+INFO:     172.19.0.3:50852 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=427
+INFO:     172.19.0.3:36586 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=428
+INFO:     172.19.0.3:36588 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.82 ms
+
+Cloud received anchor request for Batch 43 (counters 416-428)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: d29e49c2b1fbdebac286cd512613410c872307f4787645e9b651c5a5c7269081
+INFO:     172.19.0.3:36600 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=429
+INFO:     172.19.0.3:36612 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=430
+INFO:     172.19.0.3:50662 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=431
+INFO:     172.19.0.3:50664 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=432
+INFO:     172.19.0.3:50670 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=434
+INFO:     172.19.0.3:50562 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=435
+INFO:     172.19.0.3:50566 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=436
+INFO:     172.19.0.3:50578 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=438
+INFO:     172.19.0.3:52466 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 26.96 ms
+
+Cloud received anchor request for Batch 44 (counters 429-438)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: af3b9920474a6d2f6e5959d47c0a1d928e840b8532998086e39b6406cd90a8d7
+INFO:     172.19.0.3:52470 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=439
+INFO:     172.19.0.3:52472 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=440
+INFO:     172.19.0.3:41980 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=441
+INFO:     172.19.0.3:41994 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=443
+INFO:     172.19.0.3:37962 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=444
+INFO:     172.19.0.3:37974 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=445
+INFO:     172.19.0.3:37982 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=446
+INFO:     172.19.0.3:37992 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=447
+INFO:     172.19.0.3:56078 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 24.83 ms
+
+Cloud received anchor request for Batch 45 (counters 439-447)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 403070ee24cb537f57e62d14655aef7364c1c36b5e3031eef811f530584075c4
+INFO:     172.19.0.3:56082 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=448
+INFO:     172.19.0.3:56094 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=449
+INFO:     172.19.0.3:56104 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=450
+INFO:     172.19.0.3:49040 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=451
+INFO:     172.19.0.3:49046 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=452
+INFO:     172.19.0.3:49052 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=453
+INFO:     172.19.0.3:43838 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=454
+INFO:     172.19.0.3:43848 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=455
+INFO:     172.19.0.3:43852 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=457
+INFO:     172.19.0.3:49696 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=458
+INFO:     172.19.0.3:49700 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=459
+INFO:     172.19.0.3:49712 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=460
+INFO:     172.19.0.3:35920 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=461
+INFO:     172.19.0.3:35924 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=462
+INFO:     172.19.0.3:35940 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=463
+INFO:     172.19.0.3:54076 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.24 ms
+
+Cloud received anchor request for Batch 1 (counters 455-463)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 0397c08b652e0b37e564f0b927f1bd96164b33d9108dff963486c1c757dfbb60
+INFO:     172.19.0.3:54092 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=464
+INFO:     172.19.0.3:54102 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=466
+INFO:     172.19.0.3:54118 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=467
+INFO:     172.19.0.3:41318 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=468
+INFO:     172.19.0.3:41330 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=469
+INFO:     172.19.0.3:41336 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=470
+INFO:     172.19.0.3:49828 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=471
+INFO:     172.19.0.3:49838 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=472
+INFO:     172.19.0.3:49842 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.59 ms
+
+Cloud received anchor request for Batch 2 (counters 464-472)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 71164d1f705ae74b60001933eddc0da8e8972807107515e294635f59b187f8a1
+INFO:     172.19.0.3:49856 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=473
+INFO:     172.19.0.3:32792 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=474
+INFO:     172.19.0.3:32798 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=475
+INFO:     172.19.0.3:32810 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=476
+INFO:     172.19.0.3:32822 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=477
+INFO:     172.19.0.3:38182 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=478
+INFO:     172.19.0.3:38198 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=480
+INFO:     172.19.0.3:41448 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=481
+INFO:     172.19.0.3:41464 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 15.20 ms
+
+Cloud received anchor request for Batch 3 (counters 473-481)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 93b7f2a2d1f4d033a028516a32adf9455165b67fe77e97df3edd943a33b9655c
+INFO:     172.19.0.3:41478 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=482
+INFO:     172.19.0.3:41490 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=483
+INFO:     172.19.0.3:52162 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=484
+INFO:     172.19.0.3:52168 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=485
+INFO:     172.19.0.3:52178 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=486
+INFO:     172.19.0.3:52192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=487
+INFO:     172.19.0.3:57574 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=488
+INFO:     172.19.0.3:57576 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=490
+INFO:     172.19.0.3:48308 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.95 ms
+
+Cloud received anchor request for Batch 4 (counters 482-490)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 675578dfbf13de132b0c16e6147073794bde87924277cb915ce67f0e0805ed70
+INFO:     172.19.0.3:48324 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=493
+INFO:     172.19.0.3:56516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=495
+INFO:     172.19.0.3:56518 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=496
+INFO:     172.19.0.3:55774 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=498
+INFO:     172.19.0.3:55784 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=500
+INFO:     172.19.0.3:57346 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=501
+INFO:     172.19.0.3:57350 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=502
+INFO:     172.19.0.3:57362 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=503
+INFO:     172.19.0.3:60968 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=505
+INFO:     172.19.0.3:60978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=507
+INFO:     172.19.0.3:60420 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=508
+INFO:     172.19.0.3:60432 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=509
+INFO:     172.19.0.3:60440 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.85 ms
+
+Cloud received anchor request for Batch 1 (counters 500-509)
+[METRIC] Verification Time: 0.08 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 31e69ba52c8e6bf9750ac1e735ce9d3c5a1f800673ba3e97912286ef14e6476d
+INFO:     172.19.0.3:60456 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=511
+INFO:     172.19.0.3:36232 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=512
+INFO:     172.19.0.3:36238 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=513
+INFO:     172.19.0.3:37144 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=514
+INFO:     172.19.0.3:37154 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=515
+INFO:     172.19.0.3:37166 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=516
+INFO:     172.19.0.3:37172 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=519
+INFO:     172.19.0.3:53618 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=520
+INFO:     172.19.0.3:52956 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 14.08 ms
+
+Cloud received anchor request for Batch 2 (counters 511-520)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 099f726231933e9d3cd0e2c9486efa53ce07f253c546b1de1d2871367d7538a8
+INFO:     172.19.0.3:52966 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=521
+INFO:     172.19.0.3:52980 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=522
+INFO:     172.19.0.3:52990 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=524
+INFO:     172.19.0.3:35690 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=527
+INFO:     172.19.0.3:51950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=528
+INFO:     172.19.0.3:51966 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=529
+INFO:     172.19.0.3:51978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=532
+INFO:     172.19.0.3:60044 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=533
+INFO:     172.19.0.3:38378 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 29.96 ms
+
+Cloud received anchor request for Batch 3 (counters 521-533)
+[METRIC] Verification Time: 0.08 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: d62d850ada34213719a87eb7c6d229d8dde25a7074aa2aaaaa7c536657116ad2
+INFO:     172.19.0.3:38382 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=534
+INFO:     172.19.0.3:38398 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=535
+INFO:     172.19.0.3:38404 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=536
+INFO:     172.19.0.3:38410 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=537
+INFO:     172.19.0.3:45602 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=538
+INFO:     172.19.0.3:45610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=539
+INFO:     172.19.0.3:45616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=540
+INFO:     172.19.0.3:50258 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=542
+INFO:     172.19.0.3:50272 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 30.64 ms
+
+Cloud received anchor request for Batch 4 (counters 534-542)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: e07a11108d2fe7c6a6ed3df1a1ed5386943d2773892c504a24b2fb8ad2d9c00c
+INFO:     172.19.0.3:50280 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=544
+INFO:     172.19.0.3:34672 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=545
+INFO:     172.19.0.3:34686 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=546
+INFO:     172.19.0.3:58234 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=549
+INFO:     172.19.0.3:58242 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=550
+INFO:     172.19.0.3:40604 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=551
+INFO:     172.19.0.3:40620 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=552
+INFO:     172.19.0.3:40632 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=553
+INFO:     172.19.0.3:38904 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 26.75 ms
+
+Cloud received anchor request for Batch 5 (counters 544-553)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 6cf506eee5cbf3121528fca3d158772b07d4d9837d219bd0fb281b26bd022771
+INFO:     172.19.0.3:38916 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=555
+INFO:     172.19.0.3:38930 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=556
+INFO:     172.19.0.3:33530 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=557
+INFO:     172.19.0.3:33540 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=558
+INFO:     172.19.0.3:33542 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=559
+INFO:     172.19.0.3:33544 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=562
+INFO:     172.19.0.3:35704 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=563
+INFO:     172.19.0.3:55222 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=564
+INFO:     172.19.0.3:55228 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.78 ms
+
+Cloud received anchor request for Batch 6 (counters 555-564)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: df21234d0bc5b1925d38235859634bbc87d3082d9ce18362afd40e31807e5b5d
+INFO:     172.19.0.3:55240 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=565
+INFO:     172.19.0.3:55244 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=566
+INFO:     172.19.0.3:33022 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=567
+INFO:     172.19.0.3:33038 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=568
+INFO:     172.19.0.3:33054 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=569
+INFO:     172.19.0.3:33056 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=570
+INFO:     172.19.0.3:32940 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=571
+INFO:     172.19.0.3:32952 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=572
+INFO:     172.19.0.3:32964 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 10.01 ms
+
+Cloud received anchor request for Batch 7 (counters 565-572)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 6ed5b8cbfd0866dd4614ea2a74e9bc84f8dcb64d0145cd8666811fee8b067083
+INFO:     172.19.0.3:32966 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=573
+INFO:     172.19.0.3:33970 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=574
+INFO:     172.19.0.3:33974 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=575
+INFO:     172.19.0.3:33984 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=576
+INFO:     172.19.0.3:33996 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=577
+INFO:     172.19.0.3:55434 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=578
+INFO:     172.19.0.3:55448 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=579
+INFO:     172.19.0.3:55464 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=580
+INFO:     172.19.0.3:58704 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.84 ms
+
+Cloud received anchor request for Batch 8 (counters 573-580)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 792946d2d77bc66cde4c2c3a7e469dbc88c2be5057bb432fbc256c7c03537560
+INFO:     172.19.0.3:58710 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=582
+INFO:     172.19.0.3:58714 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=583
+INFO:     172.19.0.3:45128 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=584
+INFO:     172.19.0.3:45138 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=585
+INFO:     172.19.0.3:45140 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=586
+INFO:     172.19.0.3:45154 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=587
+INFO:     172.19.0.3:47794 - "POST /ingest HTTP/1.1" 200 OK
+User manually triggered tampering for the next incoming anchor request!
+INFO:     172.19.0.1:50190 - "POST /tamper HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=588
+INFO:     172.19.0.3:47808 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=589
+INFO:     172.19.0.3:47820 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.70 ms
+
+Cloud received anchor request for Batch 9 (counters 582-589)
+Simulating adversarial proof corruption!
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Tampering Detected Count: 4
+[ANCHOR VERIFY FAIL] Batch 9, Index 2
+INFO:     172.19.0.3:47828 - "POST /anchor HTTP/1.1" 200 OK
+
+[RECONCILE RECEIVED] Batch 9, Index 2
+[RECONCILE SUCCESS] Transient error resolved
+INFO:     172.19.0.3:47840 - "POST /reconcile_request HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=590
+INFO:     172.19.0.3:56824 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=591
+INFO:     172.19.0.3:56832 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=592
+INFO:     172.19.0.3:56840 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=593
+INFO:     172.19.0.3:56608 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=594
+INFO:     172.19.0.3:56610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=595
+INFO:     172.19.0.3:56620 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=598
+INFO:     172.19.0.3:33756 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=600
+INFO:     172.19.0.3:42512 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=601
+INFO:     172.19.0.3:42526 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=602
+INFO:     172.19.0.3:42534 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=603
+INFO:     172.19.0.3:54046 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=605
+INFO:     172.19.0.3:54052 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=606
+INFO:     172.19.0.3:54058 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=607
+INFO:     172.19.0.3:58370 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.94 ms
+
+Cloud received anchor request for Batch 1 (counters 598-607)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 95508f43c9919e0c8dfed60528e9c3214e0b46a2bc84f4f7bf565b2ac1766711
+INFO:     172.19.0.3:58374 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=608
+INFO:     172.19.0.3:58390 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=609
+INFO:     172.19.0.3:58398 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=610
+INFO:     172.19.0.3:36178 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=611
+INFO:     172.19.0.3:36192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=612
+INFO:     172.19.0.3:36200 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=614
+INFO:     172.19.0.3:42632 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=617
+INFO:     172.19.0.3:55442 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=618
+INFO:     172.19.0.3:55450 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 8.24 ms
+
+Cloud received anchor request for Batch 2 (counters 608-618)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 8409910decdf7939021ad3f5ef36af6c9dda9c2b4267f0816882cc3d721268ab
+INFO:     172.19.0.3:55452 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=619
+INFO:     172.19.0.3:55456 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=620
+INFO:     172.19.0.3:44724 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=622
+INFO:     172.19.0.3:44738 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=623
+INFO:     172.19.0.3:35760 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=624
+INFO:     172.19.0.3:35774 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=625
+INFO:     172.19.0.3:35780 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=626
+INFO:     172.19.0.3:42674 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=627
+INFO:     172.19.0.3:42684 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.02 ms
+
+Cloud received anchor request for Batch 3 (counters 619-627)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: db035c000bf31b3f1ee5a5ad42a5289675b8ad6ba1dfe73a315d34e589c6e715
+INFO:     172.19.0.3:42690 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=628
+INFO:     172.19.0.3:42706 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=629
+INFO:     172.19.0.3:42714 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=630
+INFO:     172.19.0.3:44368 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=631
+INFO:     172.19.0.3:44376 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=632
+INFO:     172.19.0.3:44386 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=633
+INFO:     172.19.0.3:49024 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=634
+INFO:     172.19.0.3:49036 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=635
+INFO:     172.19.0.3:49050 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 12.96 ms
+
+Cloud received anchor request for Batch 4 (counters 628-635)
+[METRIC] Verification Time: 0.06 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ce95bf70e04abb8ae37e5ed25924b884383cc1b25c77983d4a87085a459fa58e
+INFO:     172.19.0.3:49052 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=636
+INFO:     172.19.0.3:45122 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=638
+INFO:     172.19.0.3:45128 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=639
+INFO:     172.19.0.3:45130 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=640
+INFO:     172.19.0.3:56192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=641
+INFO:     172.19.0.3:56194 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=643
+INFO:     172.19.0.3:40158 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=644
+INFO:     172.19.0.3:40162 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=645
+INFO:     172.19.0.3:40170 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 13.54 ms
+
+Cloud received anchor request for Batch 5 (counters 636-645)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 3da2cf10042d25889bc685f82bebb368f584e563d631ba7fbcdde9428923be36
+INFO:     172.19.0.3:40180 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=647
+INFO:     172.19.0.3:59580 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=648
+INFO:     172.19.0.3:59594 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=649
+INFO:     172.19.0.3:59604 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=651
+INFO:     172.19.0.3:43522 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=652
+INFO:     172.19.0.3:43524 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=653
+INFO:     172.19.0.3:53418 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=654
+INFO:     172.19.0.3:53432 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=655
+INFO:     172.19.0.3:53438 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.76 ms
+
+Cloud received anchor request for Batch 6 (counters 647-655)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 92dbe156a9d71286ef086622bcdee3f41956d1103f9cb9d514015fcd0d9de889
+INFO:     172.19.0.3:53440 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=657
+INFO:     172.19.0.3:57110 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=658
+INFO:     172.19.0.3:57116 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=659
+INFO:     172.19.0.3:57124 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=660
+INFO:     172.19.0.3:46170 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=661
+INFO:     172.19.0.3:46172 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=663
+INFO:     172.19.0.3:51562 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=664
+INFO:     172.19.0.3:51572 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=667
+INFO:     172.19.0.3:46736 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.34 ms
+
+Cloud received anchor request for Batch 7 (counters 657-667)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 96ea9b6533faeaaff48899331caada3997ce11ae3df8bcbf433bdc91d0644963
+INFO:     172.19.0.3:46748 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=668
+INFO:     172.19.0.3:46754 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=669
+INFO:     172.19.0.3:46760 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=670
+INFO:     172.19.0.3:39204 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=671
+INFO:     172.19.0.3:39214 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=672
+INFO:     172.19.0.3:39220 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=673
+INFO:     172.19.0.3:55602 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=675
+INFO:     172.19.0.3:55612 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=676
+INFO:     172.19.0.3:48334 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 11.97 ms
+
+Cloud received anchor request for Batch 8 (counters 668-676)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 94df9da28bf186abbca5d92e1851a222a5b4bb760855b1b5e3be9118027104a2
+INFO:     172.19.0.3:48340 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=678
+INFO:     172.19.0.3:48346 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=679
+INFO:     172.19.0.3:48350 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=680
+INFO:     172.19.0.3:33580 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=681
+INFO:     172.19.0.3:33592 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=682
+INFO:     172.19.0.3:33600 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=683
+INFO:     172.19.0.3:43454 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=684
+INFO:     172.19.0.3:43460 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=685
+INFO:     172.19.0.3:43464 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.11 ms
+
+Cloud received anchor request for Batch 9 (counters 678-685)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 1e78da4901b075702dde15aaac559d2dca99f0f543d09655bea282a290c4992e
+INFO:     172.19.0.3:43466 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=686
+INFO:     172.19.0.3:51358 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=687
+INFO:     172.19.0.3:51362 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=688
+INFO:     172.19.0.3:51368 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=689
+INFO:     172.19.0.3:51382 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=690
+INFO:     172.19.0.3:49932 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=691
+INFO:     172.19.0.3:49938 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=692
+INFO:     172.19.0.3:49944 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=693
+INFO:     172.19.0.3:34142 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 35.86 ms
+
+Cloud received anchor request for Batch 10 (counters 686-693)
+[METRIC] Verification Time: 0.07 ms
+[METRIC] Verification Time: 0.02 ms
+Successfully cryptographically verified 2 proofs for root: 9c28a683a40c096be06036e6ea2d6df9839332ab81640044adaf5940c9a71946
+INFO:     172.19.0.3:34148 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=694
+INFO:     172.19.0.3:34152 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=695
+INFO:     172.19.0.3:34156 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=696
+INFO:     172.19.0.3:34160 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=697
+INFO:     172.19.0.3:59734 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=698
+INFO:     172.19.0.3:59740 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=701
+INFO:     172.19.0.3:59668 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=702
+INFO:     172.19.0.3:59676 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=703
+INFO:     172.19.0.3:44306 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 43.51 ms
+
+Cloud received anchor request for Batch 11 (counters 694-703)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 589ca5c67fe7ab0b880203f8cc8a55467b33c15fb9537cf248917860edf50025
+INFO:     172.19.0.3:44322 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=704
+INFO:     172.19.0.3:44324 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=705
+INFO:     172.19.0.3:44334 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=706
+INFO:     172.19.0.3:45972 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=708
+INFO:     172.19.0.3:45978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=709
+INFO:     172.19.0.3:45988 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=710
+INFO:     172.19.0.3:42922 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=711
+INFO:     172.19.0.3:42930 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=712
+INFO:     172.19.0.3:42940 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.73 ms
+
+Cloud received anchor request for Batch 12 (counters 704-712)
+[METRIC] Verification Time: 0.06 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 38e9cac5a57baf9f511610af101192e7c3c174d193e78c3ef6b48151fd27ef04
+INFO:     172.19.0.3:42952 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=713
+INFO:     172.19.0.3:43562 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=714
+INFO:     172.19.0.3:43576 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=715
+INFO:     172.19.0.3:43580 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=716
+INFO:     172.19.0.3:43588 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=717
+INFO:     172.19.0.3:36290 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=718
+INFO:     172.19.0.3:36292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=720
+INFO:     172.19.0.3:57670 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=722
+INFO:     172.19.0.3:57676 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.03 ms
+
+Cloud received anchor request for Batch 13 (counters 713-722)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 16eb3e4685322a1f60222cf6466f57ab2dd12730463b7a26272fe53127326a54
+INFO:     172.19.0.3:57688 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=723
+INFO:     172.19.0.3:50590 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=725
+INFO:     172.19.0.3:50604 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=727
+INFO:     172.19.0.3:55514 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=728
+INFO:     172.19.0.3:55522 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=729
+INFO:     172.19.0.3:55528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=730
+INFO:     172.19.0.3:42746 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=731
+INFO:     172.19.0.3:42748 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=732
+INFO:     172.19.0.3:42764 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.73 ms
+
+Cloud received anchor request for Batch 14 (counters 723-732)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 0e046d2f0489a675e8ab7f6d397b4763288d69addead6afb8afb7876ceb5c8e8
+INFO:     172.19.0.3:42772 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=734
+INFO:     172.19.0.3:59906 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=735
+INFO:     172.19.0.3:59922 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=736
+INFO:     172.19.0.3:33582 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=737
+INFO:     172.19.0.3:33592 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=738
+INFO:     172.19.0.3:33606 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=739
+INFO:     172.19.0.3:33614 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=741
+INFO:     172.19.0.3:41732 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=742
+INFO:     172.19.0.3:41734 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 34.82 ms
+
+Cloud received anchor request for Batch 15 (counters 734-742)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: beacab603827c40db68306e364f7888a02bc6471ae1a6533238c75c5be0abfa3
+INFO:     172.19.0.3:41746 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=743
+INFO:     172.19.0.3:44680 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=744
+INFO:     172.19.0.3:44690 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=745
+INFO:     172.19.0.3:44704 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=746
+INFO:     172.19.0.3:58644 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=747
+INFO:     172.19.0.3:58656 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=748
+INFO:     172.19.0.3:58658 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=749
+INFO:     172.19.0.3:58662 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=750
+INFO:     172.19.0.3:47342 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 34.32 ms
+
+Cloud received anchor request for Batch 16 (counters 743-750)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 0c3ed3c3844b95103f64d3580983db9e38a36a9dbc54b9221e1676de8cc2b0e2
+INFO:     172.19.0.3:47348 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=751
+INFO:     172.19.0.3:47362 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=752
+INFO:     172.19.0.3:47366 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=753
+INFO:     172.19.0.3:51760 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=754
+INFO:     172.19.0.3:51772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=755
+INFO:     172.19.0.3:51784 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=756
+INFO:     172.19.0.3:57518 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=757
+INFO:     172.19.0.3:57522 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=758
+INFO:     172.19.0.3:57530 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.70 ms
+
+Cloud received anchor request for Batch 17 (counters 751-758)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 2efcbf9589ba32684e1b8447652199f123328e51dc0a2626dd2b88ff9fd27968
+INFO:     172.19.0.3:57544 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=759
+INFO:     172.19.0.3:57560 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=761
+INFO:     172.19.0.3:54772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=762
+INFO:     172.19.0.3:54778 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=763
+INFO:     172.19.0.3:43272 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=764
+INFO:     172.19.0.3:43286 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=765
+INFO:     172.19.0.3:43292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=766
+INFO:     172.19.0.3:40646 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=767
+INFO:     172.19.0.3:40662 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.28 ms
+
+Cloud received anchor request for Batch 18 (counters 759-767)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 32aa23fe850eec54033929e17b57bce08b7a207a7400eb6d71374f80e6b07fa8
+INFO:     172.19.0.3:40664 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=768
+INFO:     172.19.0.3:40672 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=769
+INFO:     172.19.0.3:40674 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=770
+INFO:     172.19.0.3:45054 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=771
+INFO:     172.19.0.3:45064 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=772
+INFO:     172.19.0.3:45078 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=773
+INFO:     172.19.0.3:37124 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=774
+INFO:     172.19.0.3:37128 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=775
+INFO:     172.19.0.3:37136 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.37 ms
+
+Cloud received anchor request for Batch 19 (counters 768-775)
+[METRIC] Verification Time: 0.07 ms
+[METRIC] Verification Time: 0.02 ms
+Successfully cryptographically verified 2 proofs for root: 42fd6de5b9be99fa98d2044372604f7f6143107d791ac78b61a5d08b18f40c8c
+INFO:     172.19.0.3:37144 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=776
+INFO:     172.19.0.3:49386 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=777
+INFO:     172.19.0.3:49388 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=778
+INFO:     172.19.0.3:49396 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=781
+INFO:     172.19.0.3:49526 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=782
+INFO:     172.19.0.3:49536 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=783
+INFO:     172.19.0.3:58708 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=784
+INFO:     172.19.0.3:58722 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=785
+INFO:     172.19.0.3:58732 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.20 ms
+
+Cloud received anchor request for Batch 20 (counters 776-785)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: bc8dcc46b9f4ff6d43abf8b601a4c0c71c12f5cf2d5d536d87c405be2bea77ba
+INFO:     172.19.0.3:58736 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=787
+INFO:     172.19.0.3:56424 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=788
+INFO:     172.19.0.3:56426 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=789
+INFO:     172.19.0.3:56432 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=790
+INFO:     172.19.0.3:42968 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=791
+INFO:     172.19.0.3:42978 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=792
+INFO:     172.19.0.3:42986 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=793
+INFO:     172.19.0.3:58326 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=795
+INFO:     172.19.0.3:58336 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 10.51 ms
+
+Cloud received anchor request for Batch 21 (counters 787-795)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 978a6b5e40070b5c6722c3d5b2bfe645f1892b68552d89db25831ee7364e9ea8
+INFO:     172.19.0.3:58344 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=796
+INFO:     172.19.0.3:36862 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=797
+INFO:     172.19.0.3:36874 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=798
+INFO:     172.19.0.3:36890 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=800
+INFO:     172.19.0.3:38970 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=802
+INFO:     172.19.0.3:38986 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=804
+INFO:     172.19.0.3:44056 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=806
+INFO:     172.19.0.3:46130 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=807
+INFO:     172.19.0.3:46142 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 8.47 ms
+
+Cloud received anchor request for Batch 22 (counters 796-807)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9c996bc5ca1006f292317dd09f3eec1b5d1ee7e98b1cba93d4df7f68afb85fbc
+INFO:     172.19.0.3:46150 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=808
+INFO:     172.19.0.3:46154 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=809
+INFO:     172.19.0.3:46168 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=811
+INFO:     172.19.0.3:51368 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=812
+INFO:     172.19.0.3:51374 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=814
+INFO:     172.19.0.3:48294 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=815
+INFO:     172.19.0.3:48308 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=816
+INFO:     172.19.0.3:52942 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=817
+INFO:     172.19.0.3:52950 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 206.98 ms
+
+Cloud received anchor request for Batch 23 (counters 808-817)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 303510bbbedcf68a096108bb4d960c9afecffe4ac257edc0e2a1be787b551d59
+INFO:     172.19.0.3:52966 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=818
+INFO:     172.19.0.3:52974 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=819
+INFO:     172.19.0.3:52988 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=820
+INFO:     172.19.0.3:54616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=821
+INFO:     172.19.0.3:54624 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=822
+INFO:     172.19.0.3:54630 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=825
+INFO:     172.19.0.3:32960 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=826
+INFO:     172.19.0.3:38128 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=827
+INFO:     172.19.0.3:38144 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 646.37 ms
+
+Cloud received anchor request for Batch 24 (counters 818-827)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 5633d293e18871f756f000157862c9ce85a9dedc396c8f27abc8047ab8aab1bf
+INFO:     172.19.0.3:38156 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=828
+INFO:     172.19.0.3:38166 - "POST /ingest HTTP/1.1" 200 OK
+User manually triggered tampering for the next incoming anchor request!
+INFO:     172.19.0.1:54716 - "POST /tamper HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=830
+INFO:     172.19.0.3:43590 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=831
+INFO:     172.19.0.3:43594 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=832
+INFO:     172.19.0.3:43602 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=834
+INFO:     172.19.0.3:54004 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=835
+INFO:     172.19.0.3:54016 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=836
+INFO:     172.19.0.3:51684 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=837
+INFO:     172.19.0.3:51700 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 34.66 ms
+
+Cloud received anchor request for Batch 25 (counters 828-837)
+Simulating adversarial proof corruption!
+[METRIC] Verification Time: 0.10 ms
+[METRIC] Tampering Detected Count: 5
+[ANCHOR VERIFY FAIL] Batch 25, Index 2
+INFO:     172.19.0.3:51702 - "POST /anchor HTTP/1.1" 200 OK
+
+[RECONCILE RECEIVED] Batch 25, Index 2
+[RECONCILE SUCCESS] Transient error resolved
+INFO:     172.19.0.3:51718 - "POST /reconcile_request HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=838
+INFO:     172.19.0.3:51726 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=839
+INFO:     172.19.0.3:51728 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=841
+INFO:     172.19.0.3:52624 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=842
+INFO:     172.19.0.3:52634 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=846
+INFO:     172.19.0.3:33146 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=847
+INFO:     172.19.0.3:33152 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=848
+INFO:     172.19.0.3:33156 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=849
+INFO:     172.19.0.3:33172 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 15.65 ms
+
+Cloud received anchor request for Batch 26 (counters 838-849)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 2915e9b57ffac169ce4eef6b24f9c704e79019a2bc0846aa7bb2092b9d302d02
+INFO:     172.19.0.3:33180 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=850
+INFO:     172.19.0.3:50938 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=851
+INFO:     172.19.0.3:50954 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=852
+INFO:     172.19.0.3:50962 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=853
+INFO:     172.19.0.3:33084 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=855
+INFO:     172.19.0.3:33098 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=856
+INFO:     172.19.0.3:41768 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=857
+INFO:     172.19.0.3:41780 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=858
+INFO:     172.19.0.3:41788 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=860
+INFO:     172.19.0.3:37650 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=861
+INFO:     172.19.0.3:37666 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=862
+INFO:     172.19.0.3:37682 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=863
+INFO:     172.19.0.3:58314 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=864
+INFO:     172.19.0.3:58326 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.48 ms
+
+Cloud received anchor request for Batch 1 (counters 856-864)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: b658a1e787af7d2c7764b13c75311f55cadbfb5f7415c915a12e1384da5a693b
+INFO:     172.19.0.3:58334 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=865
+INFO:     172.19.0.3:58340 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=866
+INFO:     172.19.0.3:38116 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=867
+INFO:     172.19.0.3:38132 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=868
+INFO:     172.19.0.3:38140 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=869
+INFO:     172.19.0.3:38156 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=872
+INFO:     172.19.0.3:34712 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=873
+INFO:     172.19.0.3:44154 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=874
+INFO:     172.19.0.3:44160 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 37.58 ms
+
+Cloud received anchor request for Batch 2 (counters 865-874)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 4312ec60787f850beca53a901a1e595f310984befe41492a0822fd953663edb7
+INFO:     172.19.0.3:44176 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=875
+INFO:     172.19.0.3:44182 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=878
+INFO:     172.19.0.3:48710 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=879
+INFO:     172.19.0.3:48716 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=880
+INFO:     172.19.0.3:41604 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=881
+INFO:     172.19.0.3:41612 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=883
+INFO:     172.19.0.3:46826 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=884
+INFO:     172.19.0.3:46840 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=885
+INFO:     172.19.0.3:46850 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.56 ms
+
+Cloud received anchor request for Batch 3 (counters 875-885)
+[METRIC] Verification Time: 0.16 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 43fc13f0c18ac87648330b6082bc95f9c111890256145603e5279faaae9e12b5
+INFO:     172.19.0.3:46862 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=886
+INFO:     172.19.0.3:56632 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=887
+INFO:     172.19.0.3:56642 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=888
+INFO:     172.19.0.3:56654 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=889
+INFO:     172.19.0.3:56670 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=890
+INFO:     172.19.0.3:56480 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=892
+INFO:     172.19.0.3:56496 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=893
+INFO:     172.19.0.3:50256 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=894
+INFO:     172.19.0.3:50270 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.80 ms
+
+Cloud received anchor request for Batch 4 (counters 886-894)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 7af62ada7f87091af9eff3f45ec5c1512256f2bd10ae74b8b5951c84010bb28e
+INFO:     172.19.0.3:50276 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=896
+INFO:     172.19.0.3:34352 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=899
+INFO:     172.19.0.3:34362 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=900
+INFO:     172.19.0.3:40960 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=901
+INFO:     172.19.0.3:40962 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=903
+INFO:     172.19.0.3:40272 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=904
+INFO:     172.19.0.3:40288 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=905
+INFO:     172.19.0.3:40302 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=906
+INFO:     172.19.0.3:57724 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.46 ms
+
+Cloud received anchor request for Batch 5 (counters 896-906)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ece70c84b23a6781b113124a0ad29e3b5d5b3ce64dacaa3d66f55b8f422add9f
+INFO:     172.19.0.3:57736 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=907
+INFO:     172.19.0.3:57752 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=908
+INFO:     172.19.0.3:57764 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=909
+INFO:     172.19.0.3:57766 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=911
+INFO:     172.19.0.3:46516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=912
+INFO:     172.19.0.3:46518 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=913
+INFO:     172.19.0.3:51554 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=914
+INFO:     172.19.0.3:51570 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=916
+INFO:     172.19.0.3:52358 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.38 ms
+
+Cloud received anchor request for Batch 6 (counters 907-916)
+[METRIC] Verification Time: 0.07 ms
+[METRIC] Verification Time: 0.02 ms
+Successfully cryptographically verified 2 proofs for root: 378e8d0157d1f0923ca9de84a08a76de42a302cd4841f092b78f5b0b9c54d3b9
+INFO:     172.19.0.3:52370 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=917
+INFO:     172.19.0.3:52382 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=918
+INFO:     172.19.0.3:52398 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=919
+INFO:     172.19.0.3:52412 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=920
+INFO:     172.19.0.3:45230 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=921
+INFO:     172.19.0.3:45240 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=923
+INFO:     172.19.0.3:56180 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=924
+INFO:     172.19.0.3:56192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=925
+INFO:     172.19.0.3:56206 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.16 ms
+
+Cloud received anchor request for Batch 7 (counters 917-925)
+[METRIC] Verification Time: 0.07 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: d701e07cac96cf6ea8336df04a24e1dcf5e61b095ff8310ee6ebecefe9f0363d
+INFO:     172.19.0.3:56210 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=926
+INFO:     172.19.0.3:60598 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=927
+INFO:     172.19.0.3:60602 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=928
+INFO:     172.19.0.3:60610 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=929
+INFO:     172.19.0.3:60616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=930
+INFO:     172.19.0.3:45082 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=931
+INFO:     172.19.0.3:45090 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=932
+INFO:     172.19.0.3:45094 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=933
+INFO:     172.19.0.3:55212 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.12 ms
+
+Cloud received anchor request for Batch 8 (counters 926-933)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: facd7c09196300f8874b2c437e56065b05dd917c2763361336de3234c0a5dcaa
+INFO:     172.19.0.3:55224 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=934
+INFO:     172.19.0.3:55226 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=935
+INFO:     172.19.0.3:55232 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=936
+INFO:     172.19.0.3:44712 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=937
+INFO:     172.19.0.3:44716 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=938
+INFO:     172.19.0.3:44726 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=939
+INFO:     172.19.0.3:44730 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=940
+INFO:     172.19.0.3:50746 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=942
+INFO:     172.19.0.3:50754 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 30.23 ms
+
+Cloud received anchor request for Batch 9 (counters 934-942)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 76b423b22537bf8f0e273463b68f6159639db0f0a763e15cab7d45d64e069f48
+INFO:     172.19.0.3:50756 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=943
+INFO:     172.19.0.3:38574 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=944
+INFO:     172.19.0.3:38588 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=945
+INFO:     172.19.0.3:38592 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=946
+INFO:     172.19.0.3:57872 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=948
+INFO:     172.19.0.3:57876 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=949
+INFO:     172.19.0.3:57892 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=950
+INFO:     172.19.0.3:60530 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=951
+INFO:     172.19.0.3:60536 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 35.07 ms
+
+Cloud received anchor request for Batch 10 (counters 943-951)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 2ec38bcb6d392c517265898e60c91eb7da0a4b53540dfc6ea2b3a52d5583b61b
+INFO:     172.19.0.3:60550 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=952
+INFO:     172.19.0.3:60560 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=953
+INFO:     172.19.0.3:35258 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=954
+INFO:     172.19.0.3:35268 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=955
+INFO:     172.19.0.3:35282 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=956
+INFO:     172.19.0.3:43820 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=957
+INFO:     172.19.0.3:43836 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=958
+INFO:     172.19.0.3:43840 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=959
+INFO:     172.19.0.3:43856 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.59 ms
+
+Cloud received anchor request for Batch 11 (counters 952-959)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ffb20012ecbce761f634de482f878828b8272ab6046818da87303bf65d246f4f
+INFO:     172.19.0.3:43872 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=960
+INFO:     172.19.0.3:40180 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=961
+INFO:     172.19.0.3:40190 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=962
+INFO:     172.19.0.3:40196 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=963
+INFO:     172.19.0.3:60662 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=964
+INFO:     172.19.0.3:60668 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=965
+INFO:     172.19.0.3:60680 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=966
+INFO:     172.19.0.3:36732 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=967
+INFO:     172.19.0.3:36744 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 8.26 ms
+
+Cloud received anchor request for Batch 12 (counters 960-967)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 953e4dec7da75ed36e7c82cb1e76b601a419536c91ef75554c871803f86208cc
+INFO:     172.19.0.3:36758 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=968
+INFO:     172.19.0.3:36762 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=969
+INFO:     172.19.0.3:36776 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=970
+INFO:     172.19.0.3:52484 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=971
+INFO:     172.19.0.3:52490 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=972
+INFO:     172.19.0.3:52496 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=973
+INFO:     172.19.0.3:53154 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=974
+INFO:     172.19.0.3:53156 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=975
+INFO:     172.19.0.3:53166 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 14.65 ms
+
+Cloud received anchor request for Batch 13 (counters 968-975)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: c0d821d258423942c18cf95e716e6da619adc66a40930f0abd5645cad099cb21
+INFO:     172.19.0.3:53172 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=976
+INFO:     172.19.0.3:56082 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=977
+INFO:     172.19.0.3:56084 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=978
+INFO:     172.19.0.3:56090 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=979
+INFO:     172.19.0.3:56106 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=980
+INFO:     172.19.0.3:52348 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=981
+INFO:     172.19.0.3:52354 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=982
+INFO:     172.19.0.3:52360 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=983
+INFO:     172.19.0.3:49396 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.03 ms
+
+Cloud received anchor request for Batch 14 (counters 976-983)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 05eae5da181bd984f081ee664dab562f7ee898f709dc5c88b03eaf009ae16836
+INFO:     172.19.0.3:49398 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=984
+INFO:     172.19.0.3:49402 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=985
+INFO:     172.19.0.3:49416 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=986
+INFO:     172.19.0.3:41326 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=987
+INFO:     172.19.0.3:41328 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=989
+INFO:     172.19.0.3:41334 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=990
+INFO:     172.19.0.3:33102 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=991
+INFO:     172.19.0.3:33116 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=993
+INFO:     172.19.0.3:54992 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.94 ms
+
+Cloud received anchor request for Batch 15 (counters 984-993)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 0185ff38d64e86372d1bed823bc9b2dffe28720ac385cf82419b17735cba82f1
+INFO:     172.19.0.3:55008 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=995
+INFO:     172.19.0.3:55020 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=997
+INFO:     172.19.0.3:41116 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=998
+INFO:     172.19.0.3:41126 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=999
+INFO:     172.19.0.3:41132 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1000
+INFO:     172.19.0.3:50920 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1003
+INFO:     172.19.0.3:39950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1004
+INFO:     172.19.0.3:39960 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1005
+INFO:     172.19.0.3:39966 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 14.10 ms
+
+Cloud received anchor request for Batch 16 (counters 995-1005)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 6f5ad0ff247810261680788be9bbd7c33e2316bc2876a7bf92d0e8179f9de422
+INFO:     172.19.0.3:39976 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1006
+INFO:     172.19.0.3:41280 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1007
+INFO:     172.19.0.3:41284 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1009
+INFO:     172.19.0.3:41288 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1010
+INFO:     172.19.0.3:37412 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1011
+INFO:     172.19.0.3:37420 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1012
+INFO:     172.19.0.3:37426 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1014
+INFO:     172.19.0.3:52078 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1015
+INFO:     172.19.0.3:52082 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 31.82 ms
+
+Cloud received anchor request for Batch 17 (counters 1006-1015)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 318311860ead29666b59a7aed9026a777ea6eabf918f65a0ff5b78cdffe01489
+INFO:     172.19.0.3:52098 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1017
+INFO:     172.19.0.3:38296 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1018
+INFO:     172.19.0.3:38306 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1019
+INFO:     172.19.0.3:38318 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1020
+INFO:     172.19.0.3:49542 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1021
+INFO:     172.19.0.3:49556 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1022
+INFO:     172.19.0.3:49564 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1024
+INFO:     172.19.0.3:60802 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1025
+INFO:     172.19.0.3:60808 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 38.35 ms
+
+Cloud received anchor request for Batch 18 (counters 1017-1025)
+[METRIC] Verification Time: 0.10 ms
+[METRIC] Verification Time: 0.03 ms
+Successfully cryptographically verified 2 proofs for root: 234452b740b046a76cd73e415a2c4a0da9c0400e7cbe8cc4493b1a57287df163
+INFO:     172.19.0.3:60818 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1026
+INFO:     172.19.0.3:60756 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1027
+INFO:     172.19.0.3:60772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1030
+INFO:     172.19.0.3:35574 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1031
+INFO:     172.19.0.3:35586 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1032
+INFO:     172.19.0.3:35592 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1033
+INFO:     172.19.0.3:36112 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1034
+INFO:     172.19.0.3:36122 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1035
+INFO:     172.19.0.3:36130 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 37.57 ms
+
+Cloud received anchor request for Batch 19 (counters 1026-1035)
+[METRIC] Verification Time: 0.06 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 8018175d19aa98a9eb1a775c306eb2021cd3c2c857aaf8a7e9d4e9b706deab1b
+INFO:     172.19.0.3:36146 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1037
+INFO:     172.19.0.3:39332 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1038
+INFO:     172.19.0.3:39334 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1039
+INFO:     172.19.0.3:39344 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1040
+INFO:     172.19.0.3:41942 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1041
+INFO:     172.19.0.3:41950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1042
+INFO:     172.19.0.3:41966 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1043
+INFO:     172.19.0.3:57260 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1044
+INFO:     172.19.0.3:57272 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 34.60 ms
+
+Cloud received anchor request for Batch 20 (counters 1037-1044)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: ec63a5dc0ada388ae8aa423be482e35e01110395c303c6e69fb6356f10d19c13
+INFO:     172.19.0.3:57274 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1045
+INFO:     172.19.0.3:57284 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1046
+INFO:     172.19.0.3:49692 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1047
+INFO:     172.19.0.3:49694 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1048
+INFO:     172.19.0.3:49702 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1049
+INFO:     172.19.0.3:49710 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1050
+INFO:     172.19.0.3:47970 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1051
+INFO:     172.19.0.3:47986 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1053
+INFO:     172.19.0.3:55362 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 13.71 ms
+
+Cloud received anchor request for Batch 21 (counters 1045-1053)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: c29c3e338c838492bc11b107a64c0dc4fe70919ec1a3d44873ab469c2db3b103
+INFO:     172.19.0.3:55378 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1054
+INFO:     172.19.0.3:55394 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1055
+INFO:     172.19.0.3:55404 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1056
+INFO:     172.19.0.3:60508 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1058
+INFO:     172.19.0.3:60518 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1059
+INFO:     172.19.0.3:60520 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1060
+INFO:     172.19.0.3:34334 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1061
+INFO:     172.19.0.3:34342 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1062
+INFO:     172.19.0.3:34356 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.14 ms
+
+Cloud received anchor request for Batch 22 (counters 1054-1062)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: cf008811dccca795a096a4a179bedcfe0891fc53363c5b34bb44b23db0750e2e
+INFO:     172.19.0.3:34364 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1064
+INFO:     172.19.0.3:50176 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1065
+INFO:     172.19.0.3:50178 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1066
+INFO:     172.19.0.3:33552 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1068
+INFO:     172.19.0.3:33560 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1069
+INFO:     172.19.0.3:33568 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1070
+INFO:     172.19.0.3:36926 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1073
+INFO:     172.19.0.3:57516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1074
+INFO:     172.19.0.3:57520 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 32.83 ms
+
+Cloud received anchor request for Batch 23 (counters 1064-1074)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 0a37920460a27c2023529c6a10cb0632f06e1ff0e33cf07fff284554b8b6d8f7
+INFO:     172.19.0.3:57526 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1075
+INFO:     172.19.0.3:57532 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1076
+INFO:     172.19.0.3:43654 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1078
+INFO:     172.19.0.3:43668 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1079
+INFO:     172.19.0.3:43678 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1080
+INFO:     172.19.0.3:49086 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1081
+INFO:     172.19.0.3:49102 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1083
+INFO:     172.19.0.3:57834 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1084
+INFO:     172.19.0.3:57836 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 24.32 ms
+
+Cloud received anchor request for Batch 24 (counters 1075-1084)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9206b0e77823fbae7671b6950ca0ea8baa2bda2b037bb533692fe3c5aa42543a
+INFO:     172.19.0.3:57848 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1085
+INFO:     172.19.0.3:57860 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1086
+INFO:     172.19.0.3:58054 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1087
+INFO:     172.19.0.3:58064 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1088
+INFO:     172.19.0.3:58072 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1089
+INFO:     172.19.0.3:58080 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1090
+INFO:     172.19.0.3:44698 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1091
+INFO:     172.19.0.3:44708 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1092
+INFO:     172.19.0.3:44722 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.51 ms
+
+Cloud received anchor request for Batch 25 (counters 1085-1092)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 7fcc88183397c683735d9c749724f62534e498876f954accc940a360ebdbfec6
+INFO:     172.19.0.3:44738 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1093
+INFO:     172.19.0.3:60176 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1094
+INFO:     172.19.0.3:60178 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1096
+INFO:     172.19.0.3:49932 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1097
+INFO:     172.19.0.3:49946 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1098
+INFO:     172.19.0.3:49954 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1099
+INFO:     172.19.0.3:49964 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1101
+INFO:     172.19.0.3:51244 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1102
+INFO:     172.19.0.3:51258 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.45 ms
+
+Cloud received anchor request for Batch 26 (counters 1093-1102)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: cb7fd646d141324d6430a84287ad9a7bf4ee895fa570300b97281b3885d602e5
+INFO:     172.19.0.3:51274 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1103
+INFO:     172.19.0.3:49562 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1104
+INFO:     172.19.0.3:49570 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1106
+INFO:     172.19.0.3:60514 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1107
+INFO:     172.19.0.3:60528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1108
+INFO:     172.19.0.3:60532 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1109
+INFO:     172.19.0.3:60546 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1111
+INFO:     172.19.0.3:54622 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1112
+INFO:     172.19.0.3:54630 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 33.17 ms
+
+Cloud received anchor request for Batch 27 (counters 1103-1112)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 8b4c02e5995c1e2b6fe3e706cbcc8e036965140f2af785f085fc5ad371590ada
+INFO:     172.19.0.3:54642 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1113
+INFO:     172.19.0.3:36158 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1115
+INFO:     172.19.0.3:36160 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1116
+INFO:     172.19.0.3:32964 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1117
+INFO:     172.19.0.3:32974 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1118
+INFO:     172.19.0.3:32980 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1120
+INFO:     172.19.0.3:58478 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1121
+INFO:     172.19.0.3:58480 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1123
+INFO:     172.19.0.3:44348 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 13.93 ms
+
+Cloud received anchor request for Batch 28 (counters 1113-1123)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 812e0573cc709a14d35b70db8f9a8db6a5f9c838c6adc5e54808b8e9e3239ae0
+INFO:     172.19.0.3:44360 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1124
+INFO:     172.19.0.3:44366 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1125
+INFO:     172.19.0.3:44380 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1126
+INFO:     172.19.0.3:49696 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1127
+INFO:     172.19.0.3:49702 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1128
+INFO:     172.19.0.3:49718 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1129
+INFO:     172.19.0.3:49728 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1130
+INFO:     172.19.0.3:41786 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1131
+INFO:     172.19.0.3:41788 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 26.91 ms
+
+Cloud received anchor request for Batch 29 (counters 1124-1131)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: ae02b99858b0a73992eb9c89bd002e9c5e828d1eb43def6f0b1cf79d21ff1b06
+INFO:     172.19.0.3:41798 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1132
+INFO:     172.19.0.3:41804 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1134
+INFO:     172.19.0.3:33006 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1135
+INFO:     172.19.0.3:33014 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1136
+INFO:     172.19.0.3:58288 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1137
+INFO:     172.19.0.3:58292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1138
+INFO:     172.19.0.3:58304 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1139
+INFO:     172.19.0.3:58310 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1140
+INFO:     172.19.0.3:40922 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 12.94 ms
+
+Cloud received anchor request for Batch 30 (counters 1132-1140)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 911ec81a0f35eae80e3739c0d4f4141dec2541d25ba239a6a2670a7f3f138a91
+INFO:     172.19.0.3:40934 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1141
+INFO:     172.19.0.3:40946 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1142
+INFO:     172.19.0.3:40948 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1143
+INFO:     172.19.0.3:47616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1145
+INFO:     172.19.0.3:47628 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1147
+INFO:     172.19.0.3:36934 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1148
+INFO:     172.19.0.3:36940 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1149
+INFO:     172.19.0.3:36956 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1152
+INFO:     172.19.0.3:59538 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.61 ms
+
+Cloud received anchor request for Batch 31 (counters 1141-1152)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: a89d4c5fa66c4ed407391a8ee8c1dcf338adc39f187859dc3a4ef44e0a068689
+INFO:     172.19.0.3:59542 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1153
+INFO:     172.19.0.3:41202 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1154
+INFO:     172.19.0.3:41206 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1155
+INFO:     172.19.0.3:41208 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1156
+INFO:     172.19.0.3:42698 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1157
+INFO:     172.19.0.3:42700 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1158
+INFO:     172.19.0.3:42716 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1159
+INFO:     172.19.0.3:42728 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1160
+INFO:     172.19.0.3:34304 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 20.22 ms
+
+Cloud received anchor request for Batch 32 (counters 1153-1160)
+[METRIC] Verification Time: 0.15 ms
+[METRIC] Verification Time: 0.03 ms
+Successfully cryptographically verified 2 proofs for root: cd13958aa4afa522abf8a3eefbc17d3743fbd182cada063234cb1867f6030735
+INFO:     172.19.0.3:34310 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1161
+INFO:     172.19.0.3:34314 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1162
+INFO:     172.19.0.3:34318 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1164
+INFO:     172.19.0.3:60868 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1165
+INFO:     172.19.0.3:60878 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1166
+INFO:     172.19.0.3:60462 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1167
+INFO:     172.19.0.3:60464 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1168
+INFO:     172.19.0.3:60466 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1170
+INFO:     172.19.0.3:38784 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.69 ms
+
+Cloud received anchor request for Batch 33 (counters 1161-1170)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9f50fb6f6cbd7b927d393a0180cee68bd8dcc3757807bf731fafd3fa8de23b74
+INFO:     172.19.0.3:38800 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1171
+INFO:     172.19.0.3:38806 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1172
+INFO:     172.19.0.3:38814 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1173
+INFO:     172.19.0.3:33820 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1174
+INFO:     172.19.0.3:33826 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1175
+INFO:     172.19.0.3:33828 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1176
+INFO:     172.19.0.3:46592 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1177
+INFO:     172.19.0.3:46604 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1178
+INFO:     172.19.0.3:46616 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 29.95 ms
+
+Cloud received anchor request for Batch 34 (counters 1171-1178)
+[METRIC] Verification Time: 0.05 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 7357ad612740e500c00ef0f8f80609135ca10befda19d1d9931c620d1919dc6d
+INFO:     172.19.0.3:46618 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1180
+INFO:     172.19.0.3:58304 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1181
+INFO:     172.19.0.3:58320 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1183
+INFO:     172.19.0.3:40684 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1185
+INFO:     172.19.0.3:40696 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1186
+INFO:     172.19.0.3:55690 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1187
+INFO:     172.19.0.3:55706 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1188
+INFO:     172.19.0.3:55716 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1189
+INFO:     172.19.0.3:55726 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 35.28 ms
+
+Cloud received anchor request for Batch 35 (counters 1180-1189)
+[METRIC] Verification Time: 0.06 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: df23bb5ca570518edde37fae50c6e602293d59e5a835d41504a40181945d713e
+INFO:     172.19.0.3:55728 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1191
+INFO:     172.19.0.3:47166 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1192
+INFO:     172.19.0.3:47178 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1193
+INFO:     172.19.0.3:52222 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1194
+INFO:     172.19.0.3:52228 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1195
+INFO:     172.19.0.3:52242 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1196
+INFO:     172.19.0.3:60238 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1197
+INFO:     172.19.0.3:60240 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1198
+INFO:     172.19.0.3:60250 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.70 ms
+
+Cloud received anchor request for Batch 36 (counters 1191-1198)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 4c8978477d8bffa9d29f9b1bf5d131eaf099407fd25512324df53e3df55d6a77
+INFO:     172.19.0.3:60254 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1200
+INFO:     172.19.0.3:59192 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1201
+INFO:     172.19.0.3:59208 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1202
+INFO:     172.19.0.3:59222 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1203
+INFO:     172.19.0.3:37096 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1204
+INFO:     172.19.0.3:37106 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1205
+INFO:     172.19.0.3:37110 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1206
+INFO:     172.19.0.3:59800 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1208
+INFO:     172.19.0.3:59804 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 29.11 ms
+
+Cloud received anchor request for Batch 37 (counters 1200-1208)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 7a9a7f37618dacfef1aee268e22c438c989f2e197e8d8012642adf51b22beed6
+INFO:     172.19.0.3:59806 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1209
+INFO:     172.19.0.3:59820 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1211
+INFO:     172.19.0.3:60446 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1213
+INFO:     172.19.0.3:58012 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1214
+INFO:     172.19.0.3:58026 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1215
+INFO:     172.19.0.3:58038 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1216
+INFO:     172.19.0.3:43486 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1217
+INFO:     172.19.0.3:43490 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1218
+INFO:     172.19.0.3:43494 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.71 ms
+
+Cloud received anchor request for Batch 38 (counters 1209-1218)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 8d87e44aa4274d010110ccec2921c7b087945aab5a8f9336fbd7a5c7c9b33b73
+INFO:     172.19.0.3:43502 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1219
+INFO:     172.19.0.3:43516 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1220
+INFO:     172.19.0.3:41496 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1221
+INFO:     172.19.0.3:41512 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1222
+INFO:     172.19.0.3:41522 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1223
+INFO:     172.19.0.3:50114 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1224
+INFO:     172.19.0.3:50122 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1225
+INFO:     172.19.0.3:50132 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1226
+INFO:     172.19.0.3:37464 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 18.11 ms
+
+Cloud received anchor request for Batch 39 (counters 1219-1226)
+[METRIC] Verification Time: 0.08 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 2236c49385085f7e0c63ee97fa488511fe6bb0f92ed3a7514e6fbd3ef6e3e836
+INFO:     172.19.0.3:37472 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1227
+INFO:     172.19.0.3:37474 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1228
+INFO:     172.19.0.3:37478 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1229
+INFO:     172.19.0.3:37482 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1231
+INFO:     172.19.0.3:32918 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1232
+INFO:     172.19.0.3:32928 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1233
+INFO:     172.19.0.3:49148 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1234
+INFO:     172.19.0.3:49152 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1235
+INFO:     172.19.0.3:49164 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 7.14 ms
+
+Cloud received anchor request for Batch 40 (counters 1227-1235)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: f04e8973e8a6c0e81bb21ba87df8f6cb122408c080ae1ed5903de0576a49b39d
+INFO:     172.19.0.3:49168 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1236
+INFO:     172.19.0.3:56204 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1239
+INFO:     172.19.0.3:56216 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1240
+INFO:     172.19.0.3:42940 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1241
+INFO:     172.19.0.3:42948 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1243
+INFO:     172.19.0.3:37166 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1244
+INFO:     172.19.0.3:37172 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1245
+INFO:     172.19.0.3:37180 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1246
+INFO:     172.19.0.3:33184 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.67 ms
+
+Cloud received anchor request for Batch 41 (counters 1236-1246)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: e246f15832309499de4209e1b72da93727dd6e4c5f2950c4afb85ad2ae050598
+INFO:     172.19.0.3:33200 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1247
+INFO:     172.19.0.3:33206 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1248
+INFO:     172.19.0.3:33210 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1249
+INFO:     172.19.0.3:33224 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1250
+INFO:     172.19.0.3:33968 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1251
+INFO:     172.19.0.3:33972 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1252
+INFO:     172.19.0.3:33980 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1253
+INFO:     172.19.0.3:43786 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1254
+INFO:     172.19.0.3:43800 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 27.64 ms
+
+Cloud received anchor request for Batch 42 (counters 1247-1254)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 2c00fb02df9c8224516cebdc3a4460e6235e14adc03a614b124b159f05ed4653
+INFO:     172.19.0.3:43814 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1255
+INFO:     172.19.0.3:43820 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1258
+INFO:     172.19.0.3:42772 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1260
+INFO:     172.19.0.3:39446 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1261
+INFO:     172.19.0.3:39452 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1262
+INFO:     172.19.0.3:39466 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1263
+INFO:     172.19.0.3:39142 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1264
+INFO:     172.19.0.3:39156 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1265
+INFO:     172.19.0.3:39164 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 13.77 ms
+
+Cloud received anchor request for Batch 43 (counters 1255-1265)
+[METRIC] Verification Time: 0.15 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 2d40d6fd8ea8f420fa71e895c99ae348d5666553e4d9f7af77d990b7e0dd5d2e
+INFO:     172.19.0.3:39166 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1268
+INFO:     172.19.0.3:60372 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1269
+INFO:     172.19.0.3:60374 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1270
+INFO:     172.19.0.3:35616 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1271
+INFO:     172.19.0.3:35620 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1272
+INFO:     172.19.0.3:35632 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1273
+INFO:     172.19.0.3:39310 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1274
+INFO:     172.19.0.3:39312 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1275
+INFO:     172.19.0.3:39320 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 16.06 ms
+
+Cloud received anchor request for Batch 44 (counters 1268-1275)
+[METRIC] Verification Time: 0.04 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 3912268f28b31db8bc1afd1d77a8a4e843067ba0baa69e93970fd54007189156
+INFO:     172.19.0.3:39322 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1276
+INFO:     172.19.0.3:59700 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1277
+INFO:     172.19.0.3:59710 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1278
+INFO:     172.19.0.3:59716 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1279
+INFO:     172.19.0.3:59724 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1280
+INFO:     172.19.0.3:53528 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1281
+INFO:     172.19.0.3:53536 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1283
+INFO:     172.19.0.3:54080 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1284
+INFO:     172.19.0.3:54088 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 9.50 ms
+
+Cloud received anchor request for Batch 45 (counters 1276-1284)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 7291ca39e06a19264e2f73972f9d01a6f30d122e1a97269675853c0c61b4caa1
+INFO:     172.19.0.3:54090 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1287
+INFO:     172.19.0.3:57866 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1289
+INFO:     172.19.0.3:57880 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1290
+INFO:     172.19.0.3:51808 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1291
+INFO:     172.19.0.3:51822 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1293
+INFO:     172.19.0.3:34892 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1294
+INFO:     172.19.0.3:34906 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1295
+INFO:     172.19.0.3:34918 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1296
+INFO:     172.19.0.3:36744 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 36.89 ms
+
+Cloud received anchor request for Batch 46 (counters 1287-1296)
+[METRIC] Verification Time: 0.06 ms
+[METRIC] Verification Time: 0.01 ms
+Successfully cryptographically verified 2 proofs for root: 477a537bf124db77f46a5474f892670e85bed5d4c70ab2de587a8d3557bfdc59
+INFO:     172.19.0.3:36750 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1297
+INFO:     172.19.0.3:36756 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1298
+INFO:     172.19.0.3:36766 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1301
+INFO:     172.19.0.3:60408 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1302
+INFO:     172.19.0.3:60414 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1304
+INFO:     172.19.0.3:41284 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1305
+INFO:     172.19.0.3:41300 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1307
+INFO:     172.19.0.3:41820 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1308
+INFO:     172.19.0.3:41830 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.14 ms
+
+Cloud received anchor request for Batch 47 (counters 1297-1308)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 6f0a8e2b425acfd7ebe7751ee5afde56c735cfd4f36aad9b658ce26dc91af190
+INFO:     172.19.0.3:41842 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1309
+INFO:     172.19.0.3:41848 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1311
+INFO:     172.19.0.3:49940 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1312
+INFO:     172.19.0.3:49950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1313
+INFO:     172.19.0.3:40834 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1314
+INFO:     172.19.0.3:40846 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1318
+INFO:     172.19.0.3:38894 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1319
+INFO:     172.19.0.3:38898 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1320
+INFO:     172.19.0.3:54278 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 28.15 ms
+
+Cloud received anchor request for Batch 48 (counters 1309-1320)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 749b337e52cc01e3e93feef0e293c0d290a436bd74eabfdabe38cb0948d83920
+INFO:     172.19.0.3:54286 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1321
+INFO:     172.19.0.3:54292 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1322
+INFO:     172.19.0.3:54306 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1323
+INFO:     172.19.0.3:55482 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1325
+INFO:     172.19.0.3:55492 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1326
+INFO:     172.19.0.3:34672 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1327
+INFO:     172.19.0.3:34680 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1328
+INFO:     172.19.0.3:34688 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1329
+INFO:     172.19.0.3:34692 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 24.32 ms
+
+Cloud received anchor request for Batch 49 (counters 1321-1329)
+[METRIC] Verification Time: 0.02 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 5a6d6ac71ba4a9dadf75efe092394e7fbccebf6b5fb1183d3a259a8d6b3ec36e
+INFO:     172.19.0.3:34702 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1330
+INFO:     172.19.0.3:52560 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1332
+INFO:     172.19.0.3:52566 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1333
+INFO:     172.19.0.3:43578 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1334
+INFO:     172.19.0.3:43590 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1335
+INFO:     172.19.0.3:43606 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1336
+INFO:     172.19.0.3:33520 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1337
+INFO:     172.19.0.3:33530 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1338
+INFO:     172.19.0.3:33546 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 6.70 ms
+
+Cloud received anchor request for Batch 50 (counters 1330-1338)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: cb9f199d7edb17e38068fad199e3e3f0d7c577658313d9064585d7337d7ef362
+INFO:     172.19.0.3:33560 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1339
+INFO:     172.19.0.3:33566 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1340
+INFO:     172.19.0.3:60694 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1341
+INFO:     172.19.0.3:60702 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1343
+INFO:     172.19.0.3:44950 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1345
+INFO:     172.19.0.3:44958 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1346
+INFO:     172.19.0.3:51968 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1347
+INFO:     172.19.0.3:51982 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1348
+INFO:     172.19.0.3:51990 - "POST /ingest HTTP/1.1" 200 OK
+[METRIC] End-to-End Latency: 25.68 ms
+
+Cloud received anchor request for Batch 51 (counters 1339-1348)
+[METRIC] Verification Time: 0.03 ms
+[METRIC] Verification Time: 0.00 ms
+Successfully cryptographically verified 2 proofs for root: 9cf8984ab3197b9ff8a2b564d72d5a7d377727a9d6e591e513308950e1a9155d
+INFO:     172.19.0.3:52002 - "POST /anchor HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1349
+INFO:     172.19.0.3:52010 - "POST /ingest HTTP/1.1" 200 OK
+Cloud passively received via /ingest: counter=1350
+INFO:     172.19.0.3:33838 - "POST /ingest HTTP/1.1" 200 OK
